@@ -8,7 +8,7 @@
     --white-color: #FFFFFF;
     --black-color: #00122e;
     --grey-color: #D9D9D9;
-    --rbluecolor: #0074ea;
+    --blue-color: #0074ea;
 
 
     /* FontStyle*/
@@ -17,7 +17,7 @@
     
 
     /* Font Sizes */
-    --font-twohun: 4.75rem;
+    --font-twohun: 8rem;
     --font-thirtyTwo: 1.35rem;
     --font-twentyFour: 1.25rem;
     --font-eighteen: 1.125rem;
@@ -99,7 +99,7 @@ p {
 
 h1 {
     font-size: var(--font-twohun);
-    line-height: 6rem;
+    /* line-height: 6rem; */
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -157,6 +157,8 @@ img {
   display: grid;
   grid-template-columns: 100%;
   gap: 2rem;
+  width: 100vw;
+  max-width: 2560px;
 }
 /*========================================*/
 /*--------------- [_Header] -------------*/
@@ -178,22 +180,27 @@ img {
 .mobileMenu{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     height: 100vh;
     position: fixed;
     top: 0;
-    padding-top: 4.5rem;
-    z-index: 1;
+    
+    z-index: 3;
+    box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
+    -webkit-box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
+    -moz-box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
     font-size: var(--font-sixteen);
-    transform: translate(0);
+    /* transform: translateX(0%); */
+    -webkit-transition: .5s;
     transition: .5s;
     justify-content: space-between;
     color: var(--white-color);
-    background: var(--blue-color);
+    background: var(--black-color);
 }
 
 .active{
-    transform: translate(-100%);
+    transform: translate3d(-70%, 0, 0);
+	animation-timing-function: 1s ease-in;
 }
 
 .mobileLogo h4{
@@ -252,11 +259,11 @@ img {
 }
 
 .mobileDisplay .navLink:hover, .mobileDisplay .navLink:focus{
-    color: var(--black-color);
+    color: var(--blue-color);
 }
 
 .navFooter{
-    margin: 1rem 2rem 4rem;
+    margin: 1rem 2rem 2rem;
 }
 
 .navSocialLinks{
@@ -305,8 +312,10 @@ img {
       font-size: var(--font-twelve);
   }
 
-  .desktopDisplay .navLink:hover, .desktopDisplay .navLink:focus{
+  .desktopDisplay .navLink:hover, .desktopDisplay .navLink:active{
       color: var(--blue-color);
+      transition: .3s ease-in-out;
+      border-bottom: 2px solid var(--blue-color);
   }
 
   .navRight{

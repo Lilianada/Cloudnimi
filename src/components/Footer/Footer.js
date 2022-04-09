@@ -1,57 +1,69 @@
 import React from 'react';
-import './Footer.css';
-//import {BsLinkedin, BsInstagram, BsFacebook, BsTwitter} from 'react-icons/bs'
+import './FooterStyles.js';
+import {BsLinkedin, BsInstagram, BsFacebook, BsTwitter} from 'react-icons/bs'
+import { Copyright, FooterBody,
+    FooterBottom,
+    FooterCard,
+    FooterCol,
+    FooterFlex,
+    FooterLinks,
+    FooterRow,
+    FooterSection, 
+    FooterSocial, 
+    FooterText, 
+    FooterTop, 
+    Greeting, 
+    NavLogo } from './FooterStyles.js';
 
 export default function Footer () {
-
         return(
-            <footer className="footerSection">
-                <div className="footerTop">
-                    <div className="greeting"><h2>hello,</h2></div>
-                    <div className="navLogo"><h4>cloudnimi</h4></div>
-                </div>
-                <div className="footerBody">
-                    <div className="footerText">
+            <FooterSection>
+                <FooterTop>
+                    <Greeting><h2>ekaro,</h2></Greeting>
+                    <NavLogo><h4>cloudnimi</h4></NavLogo>
+                </FooterTop>
+                <FooterBody>
+                    <FooterText>
                         <h4>
-                            Have an idea? Ready to build that brand and execute that plan? 
-                            Whether it’s a website, brand identity, product prototype. 
-                            Let's make that idea ready to come to life.
+                            Ready to build and execute that plan?<br/>
+                            Get in touch with us, and let us help you get your cloud-native journey started.
                         </h4>
-                    </div>
-                    <div className="footerFlex">
-                        <div className="footerRow">
-                            <div className="footerCard">
+                    </FooterText>
+                    <FooterFlex>
+                        <FooterRow>
+                            <FooterCard>
                                 <h4>work with us</h4>
-                                <p>build@buildingbloques.com</p>
-                            </div>
-                            <div className="footerCard">
+                                <p>work@cloudnimi.com</p>
+                            </FooterCard>
+                            <FooterCard>
                                 <h4>become one of us</h4>
-                                <p>career@buildingbloques.com</p>
-                            </div>
-                            <div className="footerCard">
+                                <p>career@cloudnimi.com</p>
+                            </FooterCard>
+                            <FooterCard>
                                 <h4>general enquiries</h4>
-                                <p>hello@buildingbloques.com</p>
-                            </div>
-                            <div className="footerCard">
+                                <p>hello@cloudnimi.com</p>
+                            </FooterCard>
+                            <FooterCard>
                                 <h4>become an intern</h4>
-                                <p>intern@buildingbloques.com</p>
-                            </div>
-                        </div>
-                        <div className="footerCol">
+                                <p>intern@cloudnimi.com</p>
+                            </FooterCard>
+                        </FooterRow>
+                        <FooterCol>
                             <h2>745 Block 4, 5th Floor, Munich, Germany </h2>
                             <p>(002) 164-2459</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="footerBottom">
-                    <div className="copyrightWhite"><p>© 2021 <strong>building bloques,</strong> inc.</p></div>
-                    <div className="footerLinks">
-                        <a href="#" className="footerSocial">Linkedin</a>
-                        <a href="#" className="footerSocial">Instagram</a>
-                        <a href="#" className="footerSocial">Twitter</a>
-                        <a href="#" className="footerSocial">Facebook</a>
-                    </div>
-                </div>
-            </footer>
+                        </FooterCol>
+                    </FooterFlex>
+                </FooterBody>
+                <FooterBottom>
+                    <FooterLinks>
+                        <FooterSocial href="#" ><BsLinkedin/></FooterSocial>
+                        <FooterSocial href="#" ><BsInstagram/></FooterSocial>
+                        <FooterSocial href="#" ><BsTwitter/></FooterSocial>
+                        <FooterSocial href="#" ><BsFacebook/></FooterSocial>
+                    </FooterLinks>
+                    <Copyright><p>© 2022 <strong>cloudnimi</strong> by <a href="#">Designsbylilian</a></p></Copyright>
+                </FooterBottom>
+            </FooterSection>
         )
 }
+

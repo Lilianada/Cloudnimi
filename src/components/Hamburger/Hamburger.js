@@ -18,9 +18,9 @@ export default function Hamburger (){
 
         {toggle  && <div className={toggle ? "mobileMenu" : "active"}>
         <ul className="navItems">
-                    <li className="navList"><a href="/pages/About" className="navLink">About</a></li>
-                    <li className="navList"><a href="/pages/Services" className="navLink">Services</a></li>
-                    <li className="navList"><a href="/pages/Project" className="navLink">Projects</a></li>
+                    <li className="navList"><a href="/pages/About" className="navLink">Who we are</a></li>
+                    <li className="navList"><a href="/pages/Services" className="navLink">What we do</a></li>
+                    <li className="navList"><a href="/pages/Project" className="navLink">Why choose us</a></li>
                     <li className="navList"><a href="/pages/Contact" className="navLink">Contact</a></li>
                 </ul>
             <div className="navFooter">
@@ -31,7 +31,7 @@ export default function Hamburger (){
                     <a href="/" className="SocialLink"><BsFacebook /></a>
                 </div>
                 <div className="copyrightWhite">
-                    <p>© 2021 building bloques, inc.</p>
+                    <p>© 2022 cloudnimi, inc.</p>
                 </div>
             </div>
         </div>}
