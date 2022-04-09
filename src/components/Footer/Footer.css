@@ -1,0 +1,102 @@
+
+/*----------------- [Footer] ---------------*/
+/*--------------------------------------------*/
+.footerSection{
+    background: var(--black-color);
+    padding: 2rem;
+    color: var(--white-color);
+}
+
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.footerTop h2{
+    font-size: 48px;
+}
+
+.navLogo h4{
+    width: 30px;
+    color: var(--white-color);
+    font-family: var(--fontTwo);
+}
+
+.footerBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerText {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.footerText h4{
+    line-height: 1.5rem;
+}
+
+.footerFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerRow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 2rem 0;
+}
+
+.footerCard{
+    padding: 1rem 1rem 0;
+}
+
+.footerCard p{
+    font-size: 10px;
+}
+
+.footerCol{
+    padding: 1rem;
+    width: 45%;
+    margin: 2rem 0;
+}
+
+.footerCol h2{margin-bottom: 1rem;}
+
+.footerBottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.footerLinks{
+    width: 60%;
+    padding: 2rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+.footerSocial{
+    margin-left: 1rem;
+}
+
+.footerSocial:hover{
+    color: var(--red-color);
+}
+
+@media screen and (max-width: 500px) {
+    .footerCol{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footerText{
+        width: 60%;
+    }
+}
