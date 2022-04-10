@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FooterSection = styled.div`
+export const FooterSection = styled.footer`
     background: var(--black-color);
     padding: 1rem;
     color: var(--white-color);

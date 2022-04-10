@@ -20,7 +20,7 @@ export default function Footer () {
             <FooterSection>
                 <FooterTop>
                     <Greeting><h2>ekaro,</h2></Greeting>
-                    <NavLogo><h4>cloudnimi</h4></NavLogo>
+                    {/* <NavLogo><h4>cloudnimi</h4></NavLogo> */}
                 </FooterTop>
                 <FooterBody>
                     <FooterText>

@@ -75,7 +75,7 @@ body {
     height: 100vh;
     background-color: var(--black-color);
     font-family: var(--fontOne);
-    /* color: var(--white-color); */
+    color: var(--white-color);
     letter-spacing: 1px;
 }
 
@@ -125,12 +125,13 @@ h4 {
 h5 {
     font-size: var(--font-twelve);
     font-weight: 500;
+    line-height: 1.5rem;
 }
 
 h6 {
-    font-size: var(--font-eleven);
-    line-height: 1.5rem;
-    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2rem;
+    font-weight: 600;
 }
 
 a {
@@ -150,8 +151,6 @@ img {
   background-size: cover;
 }
 
-
-/*========================================*/
 /*--------------- [Body Wrapper] -------------*/
 .bodyWrapper{
   display: grid;
@@ -160,9 +159,9 @@ img {
   width: 100vw;
   max-width: 2560px;
 }
-/*========================================*/
+
 /*--------------- [_Header] -------------*/
-/*========================================*/
+
 .navHeader{
   background-color: transparent;
   display: flex;
@@ -184,13 +183,12 @@ img {
     height: 100vh;
     position: fixed;
     top: 0;
-    
     z-index: 3;
     box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
     -webkit-box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
     -moz-box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
-    font-size: var(--font-sixteen);
-    /* transform: translateX(0%); */
+    font-size: var(--font-eighteen);
+    transform: translateX(0%);
     -webkit-transition: .5s;
     transition: .5s;
     justify-content: space-between;
@@ -204,7 +202,7 @@ img {
 }
 
 .mobileLogo h4{
-  width: 30px;
+  /* width: 30px; */
   color: var(--white-color);
   font-family: var(--fontTwo);
 }
