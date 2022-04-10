@@ -52,7 +52,7 @@ export const FooterRow = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 50%;
+    width: 400px;
     margin: 2rem 1rem 2rem 0;
 `
 
@@ -94,6 +94,10 @@ export const FooterBottom = styled.div`
 `
 
 export const Copyright = styled.div`
+    > p{
+        color: #8f8e8e;
+        font-size: 12px;
+    }
 `
 
 export const FooterSocial = styled.div`
