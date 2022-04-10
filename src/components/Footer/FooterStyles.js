@@ -10,7 +10,7 @@ export const FooterTop = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 0;
+    margin: 1rem 0;
 
     h2{font-size: 48px;}
 `
@@ -32,7 +32,7 @@ export const FooterBody = styled.div`
 
 export const FooterText = styled.div`
     width: 100%;
-    margin: 2rem 0;
+    margin: 1rem 0;
 
     h4{
         line-height: 1.5rem;
@@ -53,7 +53,7 @@ export const FooterRow = styled.div`
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 400px;
-    margin: 2rem 1rem 2rem 0;
+    margin: 1rem 1rem 2rem 0;
 `
 
 
