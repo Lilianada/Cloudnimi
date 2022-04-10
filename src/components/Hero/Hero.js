@@ -1,4 +1,4 @@
-import {Hero, BigHeroText, SmallHeroText, Image, Rotate} from './HeroStyles.js'
+import {Hero, BigHeroText, SmallHeroText, Image} from './HeroStyles.js'
 import React from 'react';
 
 export default function HeroSection () {

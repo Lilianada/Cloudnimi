@@ -1,3 +1,4 @@
+import React from 'react';
 import {Section,
         TechStack,
         ImageWrap,
@@ -15,7 +16,7 @@ import Kubernetes from "../../assets/kubernetes-logo-vector-transparent.svg";
 import Azure from "../../assets/microsoft-azure.svg";
 import Terraform from "../../assets/Terraform-logo.svg";
 
-export default function AutoPlay () {
+export default function TechStacks () {
       return (
         <Section>
             <TechStack>
