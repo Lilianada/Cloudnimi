@@ -11,7 +11,6 @@ import { CardBody,
     ServiceWrap 
 } from "./ServiceStyles";
 import {HiArrowNarrowDown} from "react-icons/hi";
-import wave from "../../assets/wave.svg";
 
 export default function Service () {
     return(

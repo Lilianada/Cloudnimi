@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Section = styled.section`
     width: 100%;
     background: #011a4294;
-    padding: 2rem 2rem 0 2rem;
+    padding: 2rem;
     position: relative;
 
     
