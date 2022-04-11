@@ -18,7 +18,7 @@ export default function Footer () {
                         <FooterSocial href="#" ><BsTwitter/></FooterSocial>
                         <FooterSocial href="#" ><BsFacebook/></FooterSocial>
                     </FooterLinks>
-                    <Copyright><p>© 2022 <strong>cloudnimi</strong> by <a href="#">Designsbylilian</a></p></Copyright>
+                    <Copyright><p>© 2022 <strong>cloudnimi</strong> by <a href="#">Designsbylilian</a>. All rights reserved.</p></Copyright>
                 </FooterBottom>
             </FooterSection>
         )

@@ -16,7 +16,7 @@ export default function Home () {
         <div className="bodyWrapper">
             <Header />
             <HeroSection />
-            <CloudnimiDescription />
+            {/* <CloudnimiDescription /> */}
             <AboutUs />
             <Service />
             <TechStacks />

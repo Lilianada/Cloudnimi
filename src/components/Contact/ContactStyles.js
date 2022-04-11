@@ -6,7 +6,7 @@ export const Section = styled.section`
 `
 
 export const Form = styled.form `
-
+    display: grid;
 `
 
 export const ContactTop = styled.div`
@@ -82,3 +82,83 @@ export const ContactCol = styled.div`
 
 `
 
+export const InputForms = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+`
+
+export const InputName = styled.div`
+    position: relative;
+    width: 13.5rem;
+    display: flex;
+    align-items: center;
+    background: #011a4294;
+    border-radius: 6px;
+    margin-right: 1rem;
+
+    :hover{
+        top: -2px;
+        transition: .5s ease-in;
+    }
+`
+
+export const Input = styled.input`
+    background: none;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    width: 100%;
+    color: var(--white-color);
+    font-family: inherit;
+    box-shadow: 1px 0px 8px -2px rgb(165 159 159 / 28%);
+
+    ::placeholder {
+        font-size: 1em;
+        color: #4d536e;
+    }
+`
+
+export const TextArea = styled.textarea`
+    width: 28rem;
+    height: 6rem;
+    padding: 1rem;
+    background: #011a4294;
+    box-shadow: 1px 0px 8px -2px rgb(165 159 159 / 28%);
+    border-radius: 6px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    color: var(--white-color);
+    font-family: inherit;
+    position: relative;
+    transition: all .5s ease-in;
+    
+    ::placeholder {
+        font-size: 1em;
+        color: #4d536e;
+    }
+
+    :hover{
+        top: -2px;
+    }
+`
+
+export const Button = styled.button`
+    width: 7rem;
+    padding: .75rem;
+    background: none;
+    border-radius: 6px;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: 1px 0px 8px -2px rgb(165 159 159 / 28%);
+    transition: all .4s ease-in;
+    cursor: pointer;
+    margin-top: .75rem;
+    color: var(--white-color);
+
+    :hover{
+        border-color: var(--blue-color);
+    }
+`

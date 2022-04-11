@@ -8,9 +8,14 @@ import {ContactBody,
     Section,
     ContactCol,
     Greeting,
-    Form
+    Form,
+    InputForms,
+    Input,
+    InputName,
+    TextArea,
+    Button
 } from "./ContactStyles";
-import {HiArrowNarrowDown} from "react-icons/hi";
+import {MdPerson, MdOutlineMail} from "react-icons/md";
 
 export default function ContactUs () {
     return(
@@ -27,7 +32,18 @@ export default function ContactUs () {
                     </h4>
                 </ContactText>
                 <Form>
-                
+                    <InputForms>
+                        <InputName>
+                            <MdPerson style={{margin: ".5rem 0 .5rem .75rem"}} size={18} />
+                            <Input type="email" id="name" placeholder="Name" required />
+                        </InputName>
+                        <InputName>
+                            <MdOutlineMail style={{margin: ".5rem 0 .5rem .75rem"}} size={18} />
+                            <Input type="email" id="email" placeholder="Email" required />
+                        </InputName>
+                    </InputForms>
+                    <TextArea id="text" placeholder="Message" rows="1" required />
+                    <Button type="submit">Send</Button>
                 </Form>
                 <ContactFlex>
                     <ContactRow>

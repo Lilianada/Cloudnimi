@@ -5,7 +5,7 @@ export const Hero = styled.section`
     padding-left: 2rem;
     padding-right: 2rem;
     background: var(--black-color);
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
