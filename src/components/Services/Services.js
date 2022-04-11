@@ -1,5 +1,7 @@
 import React from "react";
-import Cloud from "../../assets/Userpics/SVG/Circle/OSLO-14.svg";
+import Circle from "../../assets/Simple.svg";
+import Square from "../../assets/square.svg";
+import Connect from "../../assets/connect.svg";
 import { CardBody, 
     CardHead, 
     Section, 
@@ -8,63 +10,58 @@ import { CardBody,
     ServiceText, 
     ServiceWrap 
 } from "./ServiceStyles";
-
+import {HiArrowNarrowDown} from "react-icons/hi";
+import wave from "../../assets/wave.svg";
 
 export default function Service () {
     return(
         <Section>
-            <h3>What we do</h3>
+            <h3>What we do <HiArrowNarrowDown/></h3>
 
             <ServiceWrap>
                 <ServiceCard>
-                    <ServiceImage src={Cloud} alt="Service"/>
+                    <ServiceImage src={Circle} alt="Service"/>
                     <ServiceText>
                         <CardHead>Cloud Migration</CardHead>
                         <CardBody>
-                            We analyze existing applications as well as structure, and
-                            delivery processes. We create assessments of source and target
-                            clouds (efficiency, running costs, migration costs, etc.) and
-                            design, plan and implement complex architectures, and
-                            processes.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Elit at imperdiet dui accumsan sit amet nulla. 
+                            Ultricies mi quis hendrerit dolor magna eget. 
                         </CardBody>
                     </ServiceText>
                 </ServiceCard>
                 <ServiceCard style={{flexDirection: 'row-reverse'}}>
-                    <ServiceImage src={Cloud} alt="Service"/>
+                    <ServiceImage src={Square} alt="Service"/>
                     <ServiceText>
-                        <CardHead>Cloud Migration</CardHead>
+                        <CardHead>Cloud Native & Kubernetes</CardHead>
                         <CardBody>
-                            We analyze existing applications as well as structure, and
-                            delivery processes. We create assessments of source and target
-                            clouds (efficiency, running costs, migration costs, etc.) and
-                            design, plan and implement complex architectures, and
-                            processes.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Elit at imperdiet dui accumsan sit amet nulla. 
+                            Ultricies mi quis hendrerit dolor magna eget. 
                         </CardBody>
                     </ServiceText>
                 </ServiceCard>
                 <ServiceCard>
-                    <ServiceImage src={Cloud} alt="Service"/>
+                    <ServiceImage src={Connect} alt="Service"/>
                     <ServiceText>
-                        <CardHead>Cloud Migration</CardHead>
+                        <CardHead>DevOps & Site-Reliability-Engineering</CardHead>
                         <CardBody>
-                            We analyze existing applications as well as structure, and
-                            delivery processes. We create assessments of source and target
-                            clouds (efficiency, running costs, migration costs, etc.) and
-                            design, plan and implement complex architectures, and
-                            processes.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Elit at imperdiet dui accumsan sit amet nulla. 
                         </CardBody>
                     </ServiceText>
                 </ServiceCard>
                 <ServiceCard style={{flexDirection: 'row-reverse'}}>
-                    <ServiceImage src={Cloud} alt="Service"/>
+                    <ServiceImage src={Circle} alt="Service"/>
                     <ServiceText>
-                        <CardHead>Cloud Migration</CardHead>
+                        <CardHead>Trainings</CardHead>
                         <CardBody>
-                            We analyze existing applications as well as structure, and
-                            delivery processes. We create assessments of source and target
-                            clouds (efficiency, running costs, migration costs, etc.) and
-                            design, plan and implement complex architectures, and
-                            processes.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Elit at imperdiet dui accumsan sit amet nulla. 
                         </CardBody>
                     </ServiceText>
                 </ServiceCard>

@@ -2,6 +2,7 @@
 import React from 'react';
 import "../../App.css"
 import AboutUs from '../../components/About/About';
+import CloudnimiDescription from '../../components/Cloudnimi/Description';
 import Footer from "../../components/Footer/Footer"; 
 import Header from '../../components/Header/NavBar/NavBar';
 import HeroSection from '../../components/Hero/Hero';
@@ -14,6 +15,7 @@ export default function Home () {
             <div className="bodyWrapper">
                 <Header />
                 <HeroSection />
+                <CloudnimiDescription />
                 <AboutUs />
                 <Service />
                 <TechStacks />

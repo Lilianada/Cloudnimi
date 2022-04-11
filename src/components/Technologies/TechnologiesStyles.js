@@ -1,9 +1,9 @@
-import styled from "styled-components" 
+import styled from "styled-components" ;
 
 export const Section = styled.section`
     width: 100%;
-    margin: 2rem 0;
-    
+    padding: 2rem 0;
+
     > h3{
         text-align: center;
         text-transform: uppercase;

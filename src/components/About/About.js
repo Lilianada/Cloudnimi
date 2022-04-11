@@ -10,11 +10,12 @@ import { ProfileCards,
     SubHead, 
     TeamProfile,
 } from "./AboutStyles";
+import {HiArrowNarrowDown} from "react-icons/hi";
 
 export default function AboutUs () {
     return (
         <Section>
-            <h3>Who We Are</h3>
+            <h3>Who We Are <HiArrowNarrowDown/></h3>
             <SubHead>
                 We are a professional team of Software and Cloud-Native Architects, 
                 Site Reliability Engineers and Software Security Experts from across Africa.

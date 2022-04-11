@@ -16,11 +16,12 @@ import GoogleCloud from "../../assets/google-cloud-platform.svg";
 import Kubernetes from "../../assets/kubernetes-logo-vector-transparent.svg";
 import Azure from "../../assets/microsoft-azure.svg";
 import Terraform from "../../assets/Terraform-logo.svg";
+import {HiArrowNarrowDown} from "react-icons/hi";
 
 export default function TechStacks () {
       return (
         <Section>
-            <h3>What we use</h3>
+            <h3>What we use <HiArrowNarrowDown/></h3>
             <SectionWrap>
                 <TechStack>
                     <ImageWrap>
@@ -64,11 +65,11 @@ export default function TechStacks () {
                 <TechDescription>
                     <DescriptionHead>Technologies used by our Experts</DescriptionHead>
                     <DescriptionText>
-                        Your dev team is not tied to a monolithic structure and can use any expert microservices.
-                        No more need to maintain several stacks for several usage, all content is centralized.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Nunc vel risus commodo viverra maecenas accumsan. 
                     </DescriptionText>
                     <DescriptionText>
-                        Your dev team is not tied to a monolithic structure and can use any expert microservices.
+                        Tincidunt eget nullam non nisi est. Sagittis eu volutpat odio facilisis mauris sit. 
                     </DescriptionText>
                 </TechDescription>
             </SectionWrap>

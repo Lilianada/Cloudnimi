@@ -6,7 +6,6 @@ export const Hero = styled.section`
     padding-right: 2rem;
     background: var(--black-color);
     height: 100%;
-    /* top: -5rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +16,7 @@ export const Hero = styled.section`
         top: 0;
     }
 `
+
 export const BigHeroText = styled.div`
     margin: 0 auto;
     z-index: 1;
@@ -44,6 +44,7 @@ export const BigHeroText = styled.div`
         }
     }
 `
+
 export const SmallHeroText = styled.div`
     padding-top: 2rem;
 
@@ -51,7 +52,7 @@ export const SmallHeroText = styled.div`
         text-align: center;
         text-transform: uppercase;
         margin: 0 auto;
-        line-height: 2rem;
+        line-height: 1.5rem;
         font-size: var(--font-sixteen);
         color: var(--white-color);
 
@@ -74,24 +75,3 @@ export const SVG = styled.svg`
     width: 60%;
 
 `
-
-// export const Rotate = styled.img`
-//     position: absolute;
-//     height: 450px;
-//     opacity: 0.2;
-//     margin: 0 auto;
-//     display: block;
-//     -o-object-fit: contain;
-//     object-fit: contain;
-//     -webkit-animation: animationglob 50s cubic-bezier(1, 0.99, 0.03, 0.01) infinite;
-//     animation: animationglob 50s cubic-bezier(1, 0.99, 0.03, 0.01) infinite;
-
-//     @keyframes animationglob {
-//         0% {
-//         transform: rotate(0deg);
-//         }
-//         0% {
-//             transform: rotate(360deg);
-//         }
-//     }
-// `

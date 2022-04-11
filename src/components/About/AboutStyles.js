@@ -4,9 +4,8 @@ export const Section = styled.section`
     width: 100%;
     display: grid;
     place-items: center;
-    margin: 2rem 0;
-    padding: 0 2rem;
-
+    /* margin: 2rem 0; */
+    padding: 2rem;
     > h3{
         text-transform: uppercase;
     }
