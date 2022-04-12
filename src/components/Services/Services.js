@@ -1,7 +1,7 @@
 import React from "react";
-import Circle from "../../assets/Simple.svg";
-import Square from "../../assets/square.svg";
-import Connect from "../../assets/connect.svg";
+// import Circle from "../../assets/Simple.svg";
+// import Square from "../../assets/square.svg";
+// import Connect from "../../assets/connect.svg";
 import { CardBody, 
     CardHead, 
     Section, 
@@ -12,70 +12,40 @@ import { CardBody,
 } from "./ServiceStyles";
 import {HiArrowNarrowDown} from "react-icons/hi";
 import Fade from 'react-reveal/Fade';
+import { ServiceListLeft, ServiceListRight } from "../Lists";
 
 class Service extends React.Component {
-    render(
-
-
-    ) {
+    render() {
         return(
-            <Section>
+            <Section id="what-we-do">
                 <h3>What we do <HiArrowNarrowDown/></h3>
                 <ServiceWrap>
-                    <Fade left cascade>
-                        <ServiceCard>
-                            <ServiceImage src={Circle} alt="Service" />
-                            <ServiceText>
-                                <CardHead>Cloud Migration</CardHead>
-                                <CardBody>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Elit at imperdiet dui accumsan sit amet nulla. 
-                                    Ultricies mi quis hendrerit dolor magna eget. 
-                                </CardBody>
-                            </ServiceText>
-                        </ServiceCard>
-                    </Fade>
-                    <Fade right cascade>
-                        <ServiceCard style={{flexDirection: 'row-reverse'}}>
-                            <ServiceImage src={Square} alt="Service"/>
-                            <ServiceText>
-                                <CardHead>Cloud Native & Kubernetes</CardHead>
-                                <CardBody>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Elit at imperdiet dui accumsan sit amet nulla. 
-                                    Ultricies mi quis hendrerit dolor magna eget. 
-                                </CardBody>
-                            </ServiceText>
-                        </ServiceCard>
-                    </Fade>
-                    <Fade left cascade>
-                        <ServiceCard>
-                            <ServiceImage src={Connect} alt="Service"/>
-                            <ServiceText>
-                                <CardHead>DevOps & Site-Reliability-Engineering</CardHead>
-                                <CardBody>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                    ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                    Elit at imperdiet dui accumsan sit amet nulla. 
-                                </CardBody>
-                            </ServiceText>
-                        </ServiceCard>
-                    </Fade>
-                    <Fade right cascade>
-                        <ServiceCard style={{flexDirection: 'row-reverse'}}>
-                                <ServiceImage src={Circle} alt="Service"/>
+                    {ServiceListLeft.map((list, idx) => (
+                        <Fade left cascade>
+                            <ServiceCard key={list.id}>
+                                <ServiceImage src={list.img} alt="Service" />
                                 <ServiceText>
-                                    <CardHead>Trainings</CardHead>
+                                    <CardHead>{list.head}</CardHead>
                                     <CardBody>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                        ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Elit at imperdiet dui accumsan sit amet nulla. 
+                                        {list.body}
                                     </CardBody>
                                 </ServiceText>
                             </ServiceCard>
-                    </Fade>
+                        </Fade>
+                    ))}
+                    {ServiceListRight.map((list, idx) => (
+                        <Fade right cascade>
+                            <ServiceCard style={{flexDirection: 'row-reverse'}} key={list.id}>
+                                <ServiceImage src={list.img} alt="Service"/>
+                                <ServiceText>
+                                    <CardHead>{list.head}</CardHead>
+                                    <CardBody>
+                                       {list.body}
+                                    </CardBody>
+                                </ServiceText>
+                            </ServiceCard>
+                        </Fade>
+                    ))}
                 </ServiceWrap>
             </Section>
         );

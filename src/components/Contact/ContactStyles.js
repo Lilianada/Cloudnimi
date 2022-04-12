@@ -5,10 +5,6 @@ export const Section = styled.section`
     color: var(--white-color);
     width: 90%;
     margin: 2rem auto;
-   /* @media screen and (min-width: 901px) {
-        height: 100vh;
-        display: grid;
-   } */
 `
 
 export const Form = styled.form `

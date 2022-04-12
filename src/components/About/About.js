@@ -14,7 +14,7 @@ import {HiArrowNarrowDown} from "react-icons/hi";
 
 export default function AboutUs () {
     return (
-        <Section>
+        <Section id="who-we-are">
             <h3>Who We Are <HiArrowNarrowDown/></h3>
             <SubHead>
                 We are a professional team of Software and Cloud-Native Architects, 

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import React from 'react';
 import {BsLinkedin, BsInstagram, BsFacebook, BsTwitter} from 'react-icons/bs'
+import { NavLink } from 'react-router-dom';
 
 export default function Hamburger (){
     const [toggle, setToggle] = useState(false)
@@ -18,11 +19,12 @@ export default function Hamburger (){
 
         {toggle  && <div className={toggle ? "mobileMenu" : "active"}>
             <ul className="navItems">
-                        <li className="navList"><a href="/pages/About" className="navLink">Who we are</a></li>
-                        <li className="navList"><a href="/pages/Services" className="navLink">What we do</a></li>
-                        <li className="navList"><a href="/pages/Project" className="navLink">Why choose us</a></li>
-                        <li className="navList"><a href="/pages/Contact" className="navLink">Contact</a></li>
-                    </ul>
+                <li className="navList"><NavLink to="/what-we-do" className="navLink">What we do</NavLink></li>
+                <li className="navList"><NavLink to="/who-we-use" className="navLink">What we use</NavLink></li>
+                <li className="navList"><NavLink to="/who-we-are" className="navLink">Who we are</NavLink></li>
+                <li className="navList"><NavLink to="/tech-stack" className="navLink">Why choose us</NavLink></li>
+                <li className="navList"><NavLink to="/contact" className="navLink">Contact</NavLink></li>
+            </ul>
                 <div className="navFooter">
                     <div className="navSocialLinks">
                         <a href="/" className="SocialLink"><BsLinkedin /></a>

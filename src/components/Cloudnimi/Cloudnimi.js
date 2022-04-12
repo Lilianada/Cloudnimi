@@ -5,7 +5,7 @@ import {BsFillCloudFill} from "react-icons/bs";
 
 export default function CloudnimiDescription () {
     return(
-        <Section>
+        <Section id="cloudnimi">
             <h3>Why choose us <HiArrowNarrowDown /></h3>
             <Description>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 

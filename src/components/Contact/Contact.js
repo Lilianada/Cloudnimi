@@ -19,7 +19,7 @@ import {MdPerson, MdOutlineMail} from "react-icons/md";
 
 export default function ContactUs () {
     return(
-        <Section>
+        <Section id="contact">
             <ContactTop>
                 <Greeting><h2>ekaro,</h2></Greeting>
                 {/* <NavLogo><h4>cloudnimi</h4></NavLogo> */}

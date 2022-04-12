@@ -1,6 +1,7 @@
 import '../../../App.css';
 import Hamburger from '../Hamburger/Hamburger';
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function Header () {
     
@@ -13,13 +14,12 @@ export default function Header () {
             <div className="desktopDisplay">
                 <a href="#" className="mobileLogo"><h4>cloudnimi</h4></a>
                 <ul className="navItems">
-                    <li className="navList"><a href="#" className="navLink">Who we are</a></li>
-                    <li className="navList"><a href="#" className="navLink">What we do</a></li>
-                    <li className="navList"><a href="#" className="navLink">Why choose us</a></li>
+                    <li className="navList"><NavLink to="/what-we-do" className="navLink">What we do</NavLink></li>
+                    <li className="navList"><NavLink to="/who-we-use" className="navLink">What we use</NavLink></li>
+                    <li className="navList"><NavLink to="/who-we-are" className="navLink">Who we are</NavLink></li>
+                    <li className="navList"><NavLink to="/tech-stack" className="navLink">Why choose us</NavLink></li>
+                    <li className="navList"><NavLink to="/contact" className="navLink">Contact</NavLink></li>
                 </ul>
-                <div className="navRight"><a href="#" className="navLink">Contact</a></div>
-
-                 
             </div>
         </header>
     )

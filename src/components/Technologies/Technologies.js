@@ -21,7 +21,7 @@ import {HiArrowNarrowDown} from "react-icons/hi";
 
 export default function TechStacks () {
       return (
-        <Section>
+        <Section id='#what-we-are'>
             <h3>What we use <HiArrowNarrowDown/></h3>
             <Description>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 

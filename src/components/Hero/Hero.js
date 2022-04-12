@@ -1,6 +1,5 @@
 import {Circle, Hero, BigHeroText, SmallHeroText, Image} from './HeroStyles.js'
 import React from 'react';
-import Bg from '../../assets/3103_Diffuse.jpg';
 
 export default function HeroSection () {
     return (
