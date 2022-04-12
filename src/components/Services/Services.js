@@ -14,11 +14,13 @@ import {HiArrowNarrowDown} from "react-icons/hi";
 import Fade from 'react-reveal/Fade';
 
 class Service extends React.Component {
-    render() {
+    render(
+
+
+    ) {
         return(
             <Section>
                 <h3>What we do <HiArrowNarrowDown/></h3>
-
                 <ServiceWrap>
                     <Fade left cascade>
                         <ServiceCard>

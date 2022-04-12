@@ -1,5 +1,6 @@
 import React from 'react';
 import {Section,
+        Description,
         SectionWrap,
         TechStack,
         ImageWrap,
@@ -22,6 +23,10 @@ export default function TechStacks () {
       return (
         <Section>
             <h3>What we use <HiArrowNarrowDown/></h3>
+            <Description>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Nunc vel risus commodo viverra maecenas accumsan. 
+            </Description>
             <SectionWrap>
                 <TechStack>
                     <ImageWrap>
@@ -70,6 +75,8 @@ export default function TechStacks () {
                     </DescriptionText>
                     <DescriptionText>
                         Tincidunt eget nullam non nisi est. Sagittis eu volutpat odio facilisis mauris sit. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Nunc vel risus commodo viverra maecenas accumsan. 
                     </DescriptionText>
                 </TechDescription>
             </SectionWrap>

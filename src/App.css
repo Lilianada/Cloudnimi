@@ -151,7 +151,7 @@ img {
 .bodyWrapper{
   display: grid;
   grid-template-columns: 100%;
-  gap: 2rem;
+  /* gap: 2rem; */
   max-width: 2560px;
 }
 
@@ -283,7 +283,7 @@ img {
   }
 
   .desktopDisplay{
-    background: var(--black-color);
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const Section = styled.section`
     width: 100%;
-    background: #011a4294;
-    padding: 2rem;
+    background: #011a42;
+    padding: 4rem 2rem;
     position: relative;
 
     
@@ -52,7 +52,7 @@ export const ServiceText = styled.div`
 
     @media screen and (min-width: 700px) {
         text-align: left;
-        width: 350px;
+        width: 450px;
     }
 `
 

@@ -2,18 +2,24 @@ import styled from "styled-components";
 
 export const Section = styled.section`
     width: 100%;
-    display: grid;
-    place-items: center;
-    /* margin: 2rem 0; */
     padding: 2rem;
+    background: #011a4294;
+    
+    @media screen and (min-width: 901px) {
+        height: 100vh;
+        display: grid;
+        place-items: center;
+   }
+   
     > h3{
         text-transform: uppercase;
+        text-align: center;
     }
 `
 
 export const SubHead = styled.p`
     text-align: center;
-    padding: 1rem 0;
+    width:  80%;
 `
 
 export const TeamProfile = styled.div`

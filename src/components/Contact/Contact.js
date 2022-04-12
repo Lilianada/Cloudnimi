@@ -48,16 +48,16 @@ export default function ContactUs () {
                 <ContactFlex>
                     <ContactRow>
                         <ContactCard>
+                            <h4>general enquiries</h4>
+                            <p>hello@cloudnimi.com</p>
+                        </ContactCard>
+                        <ContactCard>
                             <h4>work with us</h4>
                             <p>work@cloudnimi.com</p>
                         </ContactCard>
                         <ContactCard>
                             <h4>become one of us</h4>
                             <p>career@cloudnimi.com</p>
-                        </ContactCard>
-                        <ContactCard>
-                            <h4>general enquiries</h4>
-                            <p>hello@cloudnimi.com</p>
                         </ContactCard>
                         <ContactCard>
                             <h4>become an intern</h4>

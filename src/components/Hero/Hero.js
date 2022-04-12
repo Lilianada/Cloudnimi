@@ -1,5 +1,6 @@
-import {Hero, BigHeroText, SmallHeroText, Image} from './HeroStyles.js'
+import {Circle, Hero, BigHeroText, SmallHeroText, Image} from './HeroStyles.js'
 import React from 'react';
+import Bg from '../../assets/3103_Diffuse.jpg';
 
 export default function HeroSection () {
     return (
@@ -13,6 +14,9 @@ export default function HeroSection () {
                 </h4>
             </SmallHeroText>
             <Image src='https://deimos.io/static/planet-field-199c0a5593d324d1675db3cc46adf173.svg' alt='space'/>
+            <Circle>
+                <img src="https://static-cdn.icons8.com/l/3d-textures/images/3103_preview.webp" alt='globe' />
+            </Circle>
         </Hero>
     );
 }

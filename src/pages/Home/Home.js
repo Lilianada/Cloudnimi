@@ -16,10 +16,10 @@ export default function Home () {
         <div className="bodyWrapper">
             <Header />
             <HeroSection />
-            {/* <CloudnimiDescription /> */}
-            <AboutUs />
             <Service />
             <TechStacks />
+            <AboutUs />
+            <CloudnimiDescription />
             <ContactUs />
             <ScrollToTop />
             <Footer />

@@ -5,14 +5,14 @@ export const Hero = styled.section`
     padding-left: 2rem;
     padding-right: 2rem;
     background: var(--black-color);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
 
     @media screen and (min-width: 900px){
-        padding-top: 2rem;
+        height: 100vh;
+        /* padding-top: 2rem; */
         top: 0;
     }
 `
@@ -47,6 +47,7 @@ export const BigHeroText = styled.div`
 
 export const SmallHeroText = styled.div`
     padding-top: 2rem;
+    z-index: 1;
 
     h4 {
         text-align: center;
@@ -64,7 +65,8 @@ export const SmallHeroText = styled.div`
 
 export const Image = styled.img`
     position: absolute;
-    top: 30%;
+    top: 22%;
+    left: -43%;
 `
 
 export const SVG = styled.svg`
@@ -74,4 +76,32 @@ export const SVG = styled.svg`
     left: 20%;
     width: 60%;
 
+`
+
+export const Circle = styled.div`
+    width: 46rem;
+    height: 46rem;
+    position: absolute;
+    top: -6%;
+    right: -20%;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    animation: rotate infinite linear 45s;
+    z-index: 0;
+
+    > img {
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
+        opacity: 1;
+        transform-style: preserve-3d;
+    }
+
+    @keyframes rotate {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
 `

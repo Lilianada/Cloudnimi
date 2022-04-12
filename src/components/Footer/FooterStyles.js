@@ -31,9 +31,11 @@ export const FooterSocial = styled.div`
     padding: 8px;
     display: grid;
     place-items: center;
+    cursor: pointer;
 
     &:hover{
-        color: var(--red-color);
+        color: var(--blue-color);
+        border-color: var(--blue-color);
     }
 `
 

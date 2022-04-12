@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-    padding: 1rem 1rem 0;
+    padding: 1rem 2rem 0;
     color: var(--white-color);
+   
+   /* @media screen and (min-width: 901px) {
+        height: 100vh;
+        display: grid;
+   } */
 `
 
 export const Form = styled.form `
-    display: grid;
+    display: none;
 `
 
 export const ContactTop = styled.div`
@@ -40,6 +45,7 @@ export const ContactText = styled.div`
 
     h4{
         line-height: 1.5rem;
+        color: var(--blue-color);
     }
 
     @media screen and (min-width: 768px) {
@@ -50,6 +56,7 @@ export const ContactText = styled.div`
 export const ContactFlex = styled.div`
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
 `
 
 export const ContactRow = styled.div`
@@ -57,7 +64,7 @@ export const ContactRow = styled.div`
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 400px;
-    margin: 1rem 1rem 0 0;
+    margin: 1rem 1rem 1rem 0;
 `
 
 
@@ -96,6 +103,7 @@ export const InputName = styled.div`
     background: #011a4294;
     border-radius: 6px;
     margin-right: 1rem;
+    margin-bottom: 1rem;
 
     :hover{
         top: -2px;
@@ -120,7 +128,7 @@ export const Input = styled.input`
 `
 
 export const TextArea = styled.textarea`
-    width: 28rem;
+    width: 100%;
     height: 6rem;
     padding: 1rem;
     background: #011a4294;
@@ -143,6 +151,14 @@ export const TextArea = styled.textarea`
     :hover{
         top: -2px;
     }
+
+    @media screen and (min-width: 701px) {
+        width: 60%;
+   }
+
+    @media screen and (min-width: 901px) {
+        width: 28rem;
+   }
 `
 
 export const Button = styled.button`
