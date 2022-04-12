@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 export const Hero = styled.section`
     position: relative;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 2rem;
     background: var(--black-color);
     height: 100%;
     display: grid;
@@ -12,7 +11,6 @@ export const Hero = styled.section`
 
     @media screen and (min-width: 900px){
         height: 100vh;
-        /* padding-top: 2rem; */
         top: 0;
     }
 `
@@ -58,7 +56,7 @@ export const SmallHeroText = styled.div`
         color: var(--white-color);
 
         @media screen and (min-width: 900px) {
-            width: 80%;
+            width: 90%;
         }
     }
 `
@@ -79,8 +77,8 @@ export const SVG = styled.svg`
 `
 
 export const Circle = styled.div`
-    width: 46rem;
-    height: 46rem;
+    width: 26rem;
+    height: 36rem;
     position: absolute;
     top: -6%;
     right: -20%;
@@ -103,5 +101,10 @@ export const Circle = styled.div`
         to{
             transform: rotate(360deg);
         }
+    }
+
+    @media screen and (min-width: 900px) {
+        width: 46rem;
+        height: 46rem;
     }
 `

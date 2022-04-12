@@ -52,7 +52,7 @@ export const ServiceText = styled.div`
 
     @media screen and (min-width: 700px) {
         text-align: left;
-        width: 450px;
+        width: 500px;
     }
 `
 

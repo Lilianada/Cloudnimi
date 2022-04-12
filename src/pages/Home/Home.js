@@ -2,7 +2,7 @@
 import React from 'react';
 import "../../App.css"
 import AboutUs from '../../components/About/About';
-import CloudnimiDescription from '../../components/Cloudnimi/Description';
+import CloudnimiDescription from '../../components/Cloudnimi/Cloudnimi';
 import ContactUs from '../../components/Contact/Contact';
 import Footer from "../../components/Footer/Footer"; 
 import Header from '../../components/Header/NavBar/NavBar';

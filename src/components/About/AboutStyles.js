@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.section`
     width: 100%;
     padding: 2rem;
-    background: #011a4294;
+    background: #011a42;
     
     @media screen and (min-width: 901px) {
         height: 100vh;
@@ -19,7 +19,8 @@ export const Section = styled.section`
 
 export const SubHead = styled.p`
     text-align: center;
-    width:  80%;
+    width:  90%;
+    margin: 2rem auto;
 `
 
 export const TeamProfile = styled.div`

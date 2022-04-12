@@ -18,7 +18,7 @@ export const Section = styled.section`
 `
 
 export const Description =styled.p`
-    width: 80%;
+    width: 90%;
     text-align: center;
 `
 

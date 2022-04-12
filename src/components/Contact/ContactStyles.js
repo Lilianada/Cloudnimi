@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const Section = styled.section`
     padding: 1rem 2rem 0;
     color: var(--white-color);
-   
+    width: 90%;
+    margin: 2rem auto;
    /* @media screen and (min-width: 901px) {
         height: 100vh;
         display: grid;
@@ -49,7 +50,7 @@ export const ContactText = styled.div`
     }
 
     @media screen and (min-width: 768px) {
-        width: 60%;
+        /* width: 80%; */
     }
 `
 
@@ -57,6 +58,7 @@ export const ContactFlex = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1rem;
+    justify-content: space-between;
 `
 
 export const ContactRow = styled.div`
