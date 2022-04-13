@@ -19,10 +19,10 @@ export default function Hamburger (){
 
         {toggle  && <div className={toggle ? "mobileMenu" : "active"}>
             <ul className="navItems">
-                <li className="navList"><NavLink to="/what-we-do" className="navLink">What we do</NavLink></li>
-                <li className="navList"><NavLink to="/who-we-use" className="navLink">What we use</NavLink></li>
-                <li className="navList"><NavLink to="/who-we-are" className="navLink">Who we are</NavLink></li>
-                <li className="navList"><NavLink to="/tech-stack" className="navLink">Why choose us</NavLink></li>
+                <li className="navList"><NavLink to="/service" className="navLink">What we do</NavLink></li>
+                <li className="navList"><NavLink to="/techstack" className="navLink">What we use</NavLink></li>
+                <li className="navList"><NavLink to="/aboutus" className="navLink">Who we are</NavLink></li>
+                <li className="navList"><NavLink to="/cloudnimidescription" className="navLink">Why choose us</NavLink></li>
                 <li className="navList"><NavLink to="/contact" className="navLink">Contact</NavLink></li>
             </ul>
                 <div className="navFooter">

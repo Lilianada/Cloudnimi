@@ -12,12 +12,12 @@ export default function Header () {
             </div>
 
             <div className="desktopDisplay">
-                <a href="#" className="mobileLogo"><h4>cloudnimi</h4></a>
+                <a href="/" className="mobileLogo"><h4>cloudnimi</h4></a>
                 <ul className="navItems">
-                    <li className="navList"><NavLink to="/what-we-do" className="navLink">What we do</NavLink></li>
-                    <li className="navList"><NavLink to="/who-we-use" className="navLink">What we use</NavLink></li>
-                    <li className="navList"><NavLink to="/who-we-are" className="navLink">Who we are</NavLink></li>
-                    <li className="navList"><NavLink to="/tech-stack" className="navLink">Why choose us</NavLink></li>
+                    <li className="navList"><NavLink to="/Service" className="navLink">What we do</NavLink></li>
+                    <li className="navList"><NavLink to="/techstack" className="navLink">What we use</NavLink></li>
+                    <li className="navList"><NavLink to="/aboutus" className="navLink">Who we are</NavLink></li>
+                    <li className="navList"><NavLink to="/cloudnimidescription" className="navLink">Why choose us</NavLink></li>
                     <li className="navList"><NavLink to="/contact" className="navLink">Contact</NavLink></li>
                 </ul>
             </div>

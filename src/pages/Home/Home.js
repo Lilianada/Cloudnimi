@@ -1,6 +1,6 @@
 //import { Component } from "react";
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import "../../App.css"
 import AboutUs from '../../components/About/About';
 import CloudnimiDescription from '../../components/Cloudnimi/Cloudnimi';
@@ -15,19 +15,27 @@ import TechStacks from '../../components/Technologies/Technologies'
 export default function Home () {
     return (
         <div className="bodyWrapper">
-                <Header />
-                <HeroSection />
-                <Routes>
-                    <Route path="/" element={<Home />}>
-                        <Route path="#service" element={<Service />} />
-                        <Route path="#tech-stack" element={<TechStacks />} />
-                        <Route path="#who-we-are" element={<AboutUs />} />
-                        <Route path="#cloudnimi" element={<CloudnimiDescription />} />
-                        <Route path="#contact" element={<ContactUs />} />
-                    </Route>
-                </Routes>
+                <BrowserRouter>
+                    <Header />
+                    <HeroSection />
+                    <Service />
+                    <TechStacks />
+                    <AboutUs />
+                    <CloudnimiDescription />
+                    <ContactUs />
+                    <Routes>
+                        <Route exact path="/" component={Home}>
+                            <Route path="/service" component={Service} />
+                            <Route path="/techstack" component={TechStacks} />
+                            <Route path="/aboutus" component={AboutUs} />
+                            <Route path="/cloudnimidescription" component={CloudnimiDescription} />
+                            <Route path="/contact" component={ContactUs} />
+                        </Route>
+                    </Routes>
+                </BrowserRouter>
                 <ScrollToTop />
                 <Footer />
         </div>
     );
 }
+
