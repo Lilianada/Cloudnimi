@@ -20,7 +20,7 @@ export const Section = styled.section`
 export const Description =styled.p`
     width: 90%;
     text-align: center;
-    margin: 0 auto;
+    margin: 2rem auto;
 `
 
 export const SectionWrap = styled.div`
