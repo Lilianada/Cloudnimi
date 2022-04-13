@@ -21,7 +21,7 @@ export default function ContactUs () {
     return(
         <Section id="contact">
             <ContactTop>
-                <Greeting><h2>ekaro,</h2></Greeting>
+                <Greeting><h2>hello,</h2></Greeting>
                 {/* <NavLogo><h4>cloudnimi</h4></NavLogo> */}
             </ContactTop>
             <ContactBody>

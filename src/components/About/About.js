@@ -40,7 +40,7 @@ export default function AboutUs () {
                     <ProfileImage src={Seyi} alt='CEO Cloudnimi' />
                     <ProfileText>
                         <strong>Lilian Onochie</strong>  
-                        <br/><ProfileRole> COO</ProfileRole>
+                        <br/><ProfileRole> Co-founder, COO</ProfileRole>
                     </ProfileText>
                 </ProfileCards>
             </TeamProfile>
