@@ -20,7 +20,7 @@ export const Section = styled.section`
 export const SubHead = styled.p`
     text-align: center;
     width:  90%;
-    margin: 2rem auto;
+    margin: 0 auto;
 `
 
 export const TeamProfile = styled.div`

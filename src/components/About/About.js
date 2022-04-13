@@ -19,8 +19,7 @@ export default function AboutUs () {
             <SubHead>
                 We are a professional team of Software and Cloud-Native Architects, 
                 Site Reliability Engineers and Software Security Experts from across Africa.
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
-                adipisci velit, sed quia non numquam eius modi tempora incidunt.
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
             </SubHead>
             <TeamProfile>
                 <ProfileCards>

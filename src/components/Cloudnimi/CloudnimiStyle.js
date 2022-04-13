@@ -14,11 +14,10 @@ export const Section = styled.section`
     }
 `
 
-
 export const Description = styled.p`
     text-align: center;
     width: 90%;
-    margin-top: 2rem;
+    margin: 2rem auto;
 `
 
 export const Columns = styled.div`

@@ -42,7 +42,7 @@ export const ServiceCard = styled.div`
 `
 
 export const ServiceImage = styled.img`
-    width: 25%;
+    width: 30%;
     margin: 1rem;
 `
 
