@@ -3,7 +3,7 @@ import Hamburger from '../Hamburger/Hamburger';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import Logo from '../../../assets/Logos/Cloudnimi.svg';
+import Logo from '../../../assets/Logos/Logo.svg';
 
 const NavLogo = styled.div`
     width: 65px;
