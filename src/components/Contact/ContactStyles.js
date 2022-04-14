@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-    padding: 1rem 2rem 0;
+    padding: 1rem 0;
     color: var(--white-color);
     width: 90%;
-    margin: 2rem auto;
+    margin: 0 auto;
 `
 
 export const Form = styled.form `
@@ -25,10 +25,7 @@ export const Greeting = styled.div`
 `
 
 export const NavLogo = styled.div`
-    h4{
-    color: var(--white-color);
-    font-family: var(--fontTwo);
-    }
+    width: 65px;
 `
 
 export const ContactBody = styled.div`

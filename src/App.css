@@ -178,7 +178,7 @@ img {
     height: 100vh;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 3;
     box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
     -webkit-box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
     -moz-box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
@@ -188,7 +188,7 @@ img {
     transition: .5s;
     justify-content: space-between;
     color: var(--white-color);
-    /* background: var(--black-color); */
+    background: var(--black-color);
 }
 
 .active{
@@ -285,6 +285,7 @@ img {
   .desktopDisplay{
     background: transparent;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     position: absolute;

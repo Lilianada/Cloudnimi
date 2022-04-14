@@ -19,7 +19,7 @@ class Service extends React.Component {
             <Section id="what-we-do">
                 <h3>What we do <HiArrowNarrowDown/></h3>
                 <ServiceWrap>
-                        <Fade left cascade>
+                        <Fade bottom cascade>
                             <ServiceCard>
                                 <ServiceImage src={Circle} alt="Service" />
                                 <ServiceText>
@@ -32,7 +32,7 @@ class Service extends React.Component {
                                 </ServiceText>
                             </ServiceCard>
                         </Fade>
-                        <Fade right cascade>
+                        <Fade bottom cascade>
                             <ServiceCard style={{flexDirection: 'row-reverse'}}>
                                 <ServiceImage src={Connect} alt="Service"/>
                                 <ServiceText>
@@ -45,7 +45,7 @@ class Service extends React.Component {
                                 </ServiceText>
                             </ServiceCard>
                         </Fade>
-                        <Fade left cascade>
+                        <Fade bottom cascade>
                             <ServiceCard>
                                 <ServiceImage src={Square} alt="Service" />
                                 <ServiceText>
@@ -58,7 +58,7 @@ class Service extends React.Component {
                                 </ServiceText>
                             </ServiceCard>
                         </Fade>
-                        <Fade right cascade>
+                        <Fade bottom cascade>
                             <ServiceCard style={{flexDirection: 'row-reverse'}}>
                                 <ServiceImage src={Circle} alt="Service"/>
                                 <ServiceText>
