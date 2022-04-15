@@ -185,7 +185,7 @@ export const Button = styled.button`
     margin-top: .75rem;
     color: var(--white-color);
 
-    & :hover{
+    :hover{
         border-color: var(--blue-color);
         color: var(--blue-color);
     }
