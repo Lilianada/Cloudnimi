@@ -152,7 +152,7 @@ img {
   display: grid;
   grid-template-columns: 100%;
   /* gap: 2rem; */
-  max-width: 2560px;
+  /* max-width: 2560px; */
 }
 
 /*--------------- [_Header] -------------*/

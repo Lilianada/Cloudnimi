@@ -23,7 +23,7 @@ export const Description = styled.p`
 export const Columns = styled.div`
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2rem ;
+    margin: 2rem auto;
     gap: 2rem;
     width: 90%;
 

@@ -3,6 +3,7 @@ import React from 'react';
 import {BsLinkedin, BsInstagram, BsFacebook, BsTwitter} from 'react-icons/bs'
 import { NavLink } from 'react-router-dom';import Logo from '../../../assets/Logos/Logo.svg';
 import styled from 'styled-components';
+import { NavHashLink  } from 'react-router-hash-link';
 
 const NavLogo = styled.div`
     width: 65px;
@@ -24,14 +25,16 @@ export default function Hamburger (){
 
         {toggle  && <div className={toggle ? "mobileMenu" : "active"}>
             <ul className="navItems">
-                <li className="navList"><NavLink to="/" className="navLink">
-                    <a href="/" className="mobileLogo"><NavLogo><img src={Logo} /></NavLogo></a>    
-                </NavLink></li>
-                <li className="navList"><NavLink to="/what-we-do" className="navLink">What we do</NavLink></li>
-                <li className="navList"><NavLink to="/what-we-use" className="navLink">What we use</NavLink></li>
-                <li className="navList"><NavLink to="/who-we-are" className="navLink">Who we are</NavLink></li>
-                <li className="navList"><NavLink to="/cloudnimi" className="navLink">Why choose us</NavLink></li>
-                <li className="navList"><NavLink to="/contact" className="navLink">Contact</NavLink></li>
+                <li className="navList">
+                    <NavLink to="/" className="navLink">
+                        <a href="/" className="mobileLogo"><NavLogo><img src={Logo} /></NavLogo></a>    
+                    </NavLink>
+                </li>
+                <li className="navList"><NavHashLink smooth to="/#what-we-do" className="navLink">What we do</NavHashLink></li>
+                <li className="navList"><NavHashLink smooth to="/#what-we-use" className="navLink">What we use</NavHashLink></li>
+                <li className="navList"><NavHashLink smooth to="/#who-we-are" className="navLink">Who we are</NavHashLink></li>
+                <li className="navList"><NavHashLink smooth to="/#cloudnimi" className="navLink">Why choose us</NavHashLink></li>
+                <li className="navList"><NavHashLink smooth to="/#contact" className="navLink">Contact</NavHashLink></li>
             </ul>
                 <div className="navFooter">
                     <div className="navSocialLinks">

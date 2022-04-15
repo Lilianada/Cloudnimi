@@ -8,7 +8,9 @@ export const Section = styled.section`
 `
 
 export const Form = styled.form `
-    display: none;
+    display: grid;
+    width: 85%;
+    margin-bottom: 1rem;
 `
 
 export const ContactTop = styled.div`
@@ -55,11 +57,16 @@ export const ContactFlex = styled.div`
 `
 
 export const ContactRow = styled.div`
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    width: 400px;
-    margin: 1rem 1rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 1rem 0; 
+
+    @media screen and (min-width: 400px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 400px;  
+    }
 `
 
 
@@ -78,8 +85,12 @@ export const ContactCol = styled.div`
 
     h2{margin-bottom: 1rem;}
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 400px) {
         width: 100%;
+    }
+
+    @media screen and (min-width: 700px) {
+        width: 35%;
     }
 
 `
@@ -92,7 +103,7 @@ export const InputForms = styled.div`
 
 export const InputName = styled.div`
     position: relative;
-    width: 13.5rem;
+    width: 13rem;
     display: flex;
     align-items: center;
     background: #011a4294;
@@ -114,7 +125,10 @@ export const Input = styled.input`
     width: 100%;
     color: var(--white-color);
     font-family: inherit;
-    box-shadow: 1px 0px 8px -2px rgb(165 159 159 / 28%);
+    
+    & :focus{
+        box-shadow: 1px 0px 8px -2px rgb(165 159 159 / 28%);
+    }
 
     ::placeholder {
         font-size: 1em;
@@ -123,13 +137,11 @@ export const Input = styled.input`
 `
 
 export const TextArea = styled.textarea`
-    width: 100%;
+    width: 90%;
     height: 6rem;
     padding: 1rem;
     background: #011a4294;
-    box-shadow: 1px 0px 8px -2px rgb(165 159 159 / 28%);
     border-radius: 6px;
-    margin-top: 1rem;
     margin-bottom: 1rem;
     outline: none;
     border: none;
@@ -139,7 +151,7 @@ export const TextArea = styled.textarea`
     transition: all .5s ease-in;
     
     ::placeholder {
-        font-size: 1em;
+        font-size: 1rem;
         color: #4d536e;
     }
 
@@ -147,8 +159,12 @@ export const TextArea = styled.textarea`
         top: -2px;
     }
 
+    :focus{
+        box-shadow: 1px 0px 8px -2px rgb(165 159 159 / 28%);
+    }
+
     @media screen and (min-width: 701px) {
-        width: 60%;
+        width: 27.5rem;
    }
 
     @media screen and (min-width: 901px) {
@@ -157,8 +173,8 @@ export const TextArea = styled.textarea`
 `
 
 export const Button = styled.button`
-    width: 7rem;
-    padding: .75rem;
+    width: 5rem;
+    padding: .5rem;
     background: none;
     border-radius: 6px;
     border: 1px solid white;
@@ -169,7 +185,8 @@ export const Button = styled.button`
     margin-top: .75rem;
     color: var(--white-color);
 
-    :hover{
+    & :hover{
         border-color: var(--blue-color);
+        color: var(--blue-color);
     }
 `
