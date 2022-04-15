@@ -253,6 +253,8 @@ img {
 
 .mobileDisplay .navLink:hover, .mobileDisplay .navLink:focus{
     color: var(--blue-color);
+    transition: .3s ease-in-out;
+    border-bottom: 2px solid var(--blue-color);
 }
 
 .navFooter{

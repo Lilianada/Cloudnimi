@@ -24,18 +24,18 @@ export default function Hamburger (){
         </div>
 
         {toggle  && <div className={toggle ? "mobileMenu" : "active"}>
-            <ul className="navItems">
-                <li className="navList">
-                    <NavLink to="/" className="navLink">
-                        <a href="/" className="mobileLogo"><NavLogo><img src={Logo} /></NavLogo></a>    
-                    </NavLink>
-                </li>
-                <li className="navList"><NavHashLink smooth to="/#what-we-do" className="navLink">What we do</NavHashLink></li>
-                <li className="navList"><NavHashLink smooth to="/#what-we-use" className="navLink">What we use</NavHashLink></li>
-                <li className="navList"><NavHashLink smooth to="/#who-we-are" className="navLink">Who we are</NavHashLink></li>
-                <li className="navList"><NavHashLink smooth to="/#cloudnimi" className="navLink">Why choose us</NavHashLink></li>
-                <li className="navList"><NavHashLink smooth to="/#contact" className="navLink">Contact</NavHashLink></li>
-            </ul>
+                <ul className="navItems">
+                    <li className="navList">
+                        <NavLink to="/" className="navLink">
+                            <a href="/" className="mobileLogo"><NavLogo><img src={Logo} /></NavLogo></a>    
+                        </NavLink>
+                    </li>
+                    <li className="navList"><NavHashLink smooth to="/#what-we-do" className="navLink">What we do</NavHashLink></li>
+                    <li className="navList"><NavHashLink smooth to="/#what-we-use" className="navLink">What we use</NavHashLink></li>
+                    <li className="navList"><NavHashLink smooth to="/#who-we-are" className="navLink">Who we are</NavHashLink></li>
+                    <li className="navList"><NavHashLink smooth to="/#cloudnimi" className="navLink">Why choose us</NavHashLink></li>
+                    <li className="navList"><NavHashLink smooth to="/#contact" className="navLink">Contact</NavHashLink></li>
+                </ul>
                 <div className="navFooter">
                     <div className="navSocialLinks">
                         <a href="/" className="SocialLink"><BsLinkedin /></a>

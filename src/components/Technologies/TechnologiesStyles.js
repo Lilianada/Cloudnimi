@@ -80,7 +80,7 @@ export const TechDescription = styled.div`
     width: 90%;
     display: grid;
     padding: 0 1rem;
-    margin: 1rem;
+    margin: 1rem 0;
 
     @media screen and (min-width: 500px) {
         width: 450px;

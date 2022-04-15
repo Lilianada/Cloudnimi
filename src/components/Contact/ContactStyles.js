@@ -80,13 +80,13 @@ export const ContactCard = styled.div`
 
 export const ContactCol = styled.div`
     padding: 1rem 0;
-    width: 45%;
+    width: 100%;
     margin: 1rem 0 0;
 
     h2{margin-bottom: 1rem;}
 
-    @media screen and (max-width: 400px) {
-        width: 100%;
+    @media screen and (min-width: 500px) {
+        width: 70%;
     }
 
     @media screen and (min-width: 700px) {
