@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-    /* width: 90%; */
+    width: 100%;
     padding: 2rem 2rem 4rem;
     display: grid;
     place-items: center;
