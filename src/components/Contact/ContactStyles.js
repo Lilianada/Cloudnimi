@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-    padding: 1rem 0;
+    padding: 2rem 0;
     color: var(--white-color);
     width: 90%;
     margin: 0 auto;
@@ -43,10 +43,6 @@ export const ContactText = styled.div`
         line-height: 1.5rem;
         color: var(--blue-color);
     }
-
-    @media screen and (min-width: 768px) {
-        /* width: 80%; */
-    }
 `
 
 export const ContactFlex = styled.div`
@@ -85,15 +81,6 @@ export const ContactCol = styled.div`
     margin: 1rem 0 0;
 
     h2{margin-bottom: 1rem;}
-
-    /* @media screen and (min-width: 500px) {
-        width: 70%;
-    }
-
-    @media screen and (min-width: 700px) {
-        width: 35%;
-    } */
-
 `
 
 export const InputForms = styled.div`
@@ -104,7 +91,7 @@ export const InputForms = styled.div`
 
 export const InputName = styled.div`
     position: relative;
-    width: 13rem;
+    width: 13.5rem;
     height: 3rem;
     display: flex;
     align-items: center;
