@@ -13,10 +13,8 @@ export default function Header () {
     
     return(
         <header className="navigation">
-            <div className="mobileDisplay">
-                <Hamburger />
-            </div>
-
+            <Hamburger />
+            
             <div className="desktopDisplay">
                 <a href="/" className="mobileLogo"><NavLogo><img src={Logo} alt="Logo" /></NavLogo></a>
                 <ul className="navItems">

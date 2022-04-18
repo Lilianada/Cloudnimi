@@ -85,21 +85,21 @@ export const Circle = styled.div`
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    animation: rotate infinite linear 45s;
+    animation: rotation 2s infinite linear;
     z-index: 0;
-
+/* 
     > img {
         transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
         opacity: 1;
         transform-style: preserve-3d;
-    }
+    } */
 
-    @keyframes rotate {
+    @keyframes rotation {
         from{
             transform: rotate(0deg);
         }
         to{
-            transform: rotate(360deg);
+            transform: rotate(359deg);
         }
     }
 

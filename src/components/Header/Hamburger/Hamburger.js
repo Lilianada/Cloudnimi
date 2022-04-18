@@ -13,7 +13,7 @@ export default function Hamburger (){
     const [toggle, setToggle] = useState(false)
 
   return(
-    <>
+    <div className="mobileDisplay">
         <div className="navHeader">
             <a href="#" className="mobileLogo"><NavLogo><img src={Logo} /></NavLogo></a>
             <div className={toggle ? "change" : "navToggle"} onClick = {()=> setToggle(!toggle)}>
@@ -49,7 +49,7 @@ export default function Hamburger (){
             </div>
         }
 
-    </>
+    </div>
   )
 };
 

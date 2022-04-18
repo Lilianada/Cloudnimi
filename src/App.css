@@ -158,7 +158,7 @@ img {
 /*--------------- [_Header] -------------*/
 
 .navHeader{
-  background-color: none;
+  background-color: transparent;
   display: flex;
   padding: 2rem 2rem 1rem;
   align-items: center;
@@ -174,7 +174,7 @@ img {
 .mobileMenu{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -196,10 +196,8 @@ img {
 	animation-timing-function: 1s ease-in;
 }
 
-.mobileLogo h4{
-  /* width: 30px; */
-  color: var(--white-color);
-  font-family: var(--fontTwo);
+.mobileLogo{
+  width: 30px;
 }
 
 .navToggle{
