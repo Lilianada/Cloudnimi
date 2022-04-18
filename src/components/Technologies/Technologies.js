@@ -26,8 +26,8 @@ export default function TechStacks () {
             <Fade bottom>
                 <h3>What we use <HiArrowNarrowDown/></h3>
                 <Description>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Nunc vel risus commodo viverra maecenas accumsan. 
+                    We use latest cutting-edge tools that help to 
+                    speed your application process with best security process in place.
                 </Description>
                 <SectionWrap>
                     <TechStack>

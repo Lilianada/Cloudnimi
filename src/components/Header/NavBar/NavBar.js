@@ -1,7 +1,6 @@
 import '../../../App.css';
 import Hamburger from '../Hamburger/Hamburger';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import Logo from '../../../assets/Logos/Logo.svg';
 import { NavHashLink  } from 'react-router-hash-link';
@@ -19,7 +18,7 @@ export default function Header () {
             </div>
 
             <div className="desktopDisplay">
-                <a href="/" className="mobileLogo"><NavLogo><img src={Logo} /></NavLogo></a>
+                <a href="/" className="mobileLogo"><NavLogo><img src={Logo} alt="Logo" /></NavLogo></a>
                 <ul className="navItems">
                     <li className="navList"><NavHashLink smooth to="/#what-we-do" className="navLink">What we do</NavHashLink></li>
                     <li className="navList"><NavHashLink smooth to="/#what-we-use" className="navLink">What we use</NavHashLink></li>

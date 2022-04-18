@@ -41,7 +41,6 @@ export default function Hamburger (){
                         <a href="/" className="SocialLink"><BsLinkedin /></a>
                         <a href="/" className="SocialLink"><BsInstagram /></a>
                         <a href="/" className="SocialLink"><BsTwitter /></a>
-                        <a href="/" className="SocialLink"><BsFacebook /></a>
                     </div>
                     <div className="copyrightWhite">
                         <p>© 2022 cloudnimi, inc.</p>

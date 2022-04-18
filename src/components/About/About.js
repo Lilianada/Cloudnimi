@@ -9,8 +9,15 @@ import { ProfileCards,
     Section, 
     SubHead, 
     TeamProfile,
+    Columns, 
+    Row, 
+    IconWrap, 
+    TextWrap, 
+    TextHead, 
+    Text
 } from "./AboutStyles";
 import {HiArrowNarrowDown} from "react-icons/hi";
+import {BsFillCloudFill} from "react-icons/bs";
 import { Fade } from "react-reveal";
 
 export default function AboutUs () {
@@ -46,6 +53,64 @@ export default function AboutUs () {
                         </ProfileText>
                     </ProfileCards>
                 </TeamProfile>
+                <Columns>
+                    <Row>
+                        <IconWrap>
+                            <BsFillCloudFill />
+                        </IconWrap>
+                        <TextWrap>
+                            <TextHead>
+                                Cloud-Native Architects
+                            </TextHead>
+                            <Text>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua.
+                            </Text>
+                        </TextWrap>
+                    </Row>
+                    <Row>
+                        <IconWrap>
+                            <BsFillCloudFill />
+                        </IconWrap>
+                        <TextWrap>
+                            <TextHead>
+                                Site Reliability Engineers
+                            </TextHead>
+                            <Text>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua.
+                            </Text>
+                        </TextWrap>
+                    </Row>
+                    <Row>
+                        <IconWrap>
+                            <BsFillCloudFill />
+                        </IconWrap>
+                        <TextWrap>
+                            <TextHead>
+                                Software Security Experts
+                            </TextHead>
+                            <Text>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua.
+                            </Text>
+                        </TextWrap>
+                    </Row>
+                    <Row>
+                        <IconWrap>
+                            <BsFillCloudFill />
+                        </IconWrap>
+                        <TextWrap>
+                            <TextHead>
+                                Software Development Experts
+                            </TextHead>
+                            <Text>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua.
+                            </Text>
+                        </TextWrap>
+                    </Row>
+                </Columns>
             </Fade>
         </Section>
     );

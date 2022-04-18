@@ -25,9 +25,10 @@ class Service extends React.Component {
                                 <ServiceText>
                                     <CardHead>Cloud Migration</CardHead>
                                     <CardBody>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                        ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Elit at imperdiet dui accumsan sit amet nulla. Ultricies mi quis hendrerit dolor magna eget.
+                                        We have strategy in place which we use in 
+                                        analyzing your existing on-premises infrastructure 
+                                        and move your application workloads and data into 
+                                        the cloud while having cost optimisation in mind.
                                     </CardBody>
                                 </ServiceText>
                             </ServiceCard>
@@ -38,9 +39,11 @@ class Service extends React.Component {
                                 <ServiceText>
                                     <CardHead>DevOps & Site-Reliability-Engineering</CardHead>
                                     <CardBody>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                        ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Elit at imperdiet dui accumsan sit amet nulla. Ultricies mi quis hendrerit dolor magna eget.
+                                        Our aim is to shorten the software development lifecycle and 
+                                        speed the delivery of higher-quality software by breaking down 
+                                        the silos, combining and automating the infrastructure and 
+                                        deployment to increase the velocity and agility while we 
+                                        eradicate risk or failure on production through observability.
                                     </CardBody>
                                 </ServiceText>
                             </ServiceCard>
@@ -51,9 +54,9 @@ class Service extends React.Component {
                                 <ServiceText>
                                     <CardHead>Cloud Native & Kubernetes</CardHead>
                                     <CardBody>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                        ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Elit at imperdiet dui accumsan sit amet nulla. Ultricies mi quis hendrerit dolor magna eget.
+                                        We handle both your Cloud Native and container-base workloads, 
+                                        we enhance the work of the engineers to make sure they only have 
+                                        to focus on building products.
                                     </CardBody>
                                 </ServiceText>
                             </ServiceCard>
@@ -64,9 +67,10 @@ class Service extends React.Component {
                                 <ServiceText>
                                     <CardHead>Trainings</CardHead>
                                     <CardBody>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                        ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                        Elit at imperdiet dui accumsan sit amet nulla. Ultricies mi quis hendrerit dolor magna eget.
+                                        We have internship program we run every year, 
+                                        where we train cloud enthusiast on cloud infraostture as 
+                                        DevOps and SRE for free. It is a way of giving back to the 
+                                        community and equipping enthusiast with skills to standout in the society.
                                     </CardBody>
                                 </ServiceText>
                             </ServiceCard>

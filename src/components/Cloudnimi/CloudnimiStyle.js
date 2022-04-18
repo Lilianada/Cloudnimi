@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.section`
     width: 100%;
     padding: 2rem 2rem 4rem;
-    display: grid;
+    display: none;
     place-items: center;
     margin: 0 auto;
     background: #011a42;

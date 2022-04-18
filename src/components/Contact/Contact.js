@@ -50,24 +50,16 @@ export default function ContactUs () {
                         <Button type="submit">Send</Button>
                     </Form>
                     <ContactFlex>
-                        <ContactRow>
+                        {/* <ContactRow>
                             <ContactCard>
                                 <h4>general enquiries</h4>
                                 <p>hello@cloudnimi.com</p>
                             </ContactCard>
                             <ContactCard>
-                                <h4>work with us</h4>
-                                <p>work@cloudnimi.com</p>
-                            </ContactCard>
-                            <ContactCard>
-                                <h4>become one of us</h4>
-                                <p>career@cloudnimi.com</p>
-                            </ContactCard>
-                            <ContactCard>
                                 <h4>become an intern</h4>
                                 <p>intern@cloudnimi.com</p>
                             </ContactCard>
-                        </ContactRow>
+                        </ContactRow> */}
                         <ContactCol>
                             <h2>745 Block 4, 5th Floor, Munich, Germany </h2>
                             <p>(002) 164-2459</p>

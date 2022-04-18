@@ -52,22 +52,23 @@ export const ContactText = styled.div`
 export const ContactFlex = styled.div`
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     margin-bottom: 1rem;
     justify-content: space-between;
 `
 
-export const ContactRow = styled.div`
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 1rem 1rem 0; 
+// export const ContactRow = styled.div`
+//     display: flex;
+//     flex-direction: column;
+//     margin: 1rem 1rem 1rem 0; 
 
-    @media screen and (min-width: 400px) {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        width: 400px;  
-    }
-`
+//     @media screen and (min-width: 400px) {
+//         display: grid;
+//         grid-template-columns: repeat(2, 1fr);
+//         grid-template-rows: repeat(1, 1fr);
+//         width: 400px;  
+//     }
+// `
 
 
 export const ContactCard = styled.div`
@@ -85,13 +86,13 @@ export const ContactCol = styled.div`
 
     h2{margin-bottom: 1rem;}
 
-    @media screen and (min-width: 500px) {
+    /* @media screen and (min-width: 500px) {
         width: 70%;
     }
 
     @media screen and (min-width: 700px) {
         width: 35%;
-    }
+    } */
 
 `
 
@@ -104,6 +105,7 @@ export const InputForms = styled.div`
 export const InputName = styled.div`
     position: relative;
     width: 13rem;
+    height: 3rem;
     display: flex;
     align-items: center;
     background: #011a4294;
@@ -138,7 +140,7 @@ export const Input = styled.input`
 
 export const TextArea = styled.textarea`
     width: 90%;
-    height: 6rem;
+    height: 10rem;
     padding: 1rem;
     background: #011a4294;
     border-radius: 6px;
