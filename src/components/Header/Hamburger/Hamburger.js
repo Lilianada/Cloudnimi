@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import React from 'react';
-import {BsLinkedin, BsInstagram, BsFacebook, BsTwitter} from 'react-icons/bs'
+import {BsLinkedin, BsInstagram, BsTwitter} from 'react-icons/bs'
 import { NavLink } from 'react-router-dom';import Logo from '../../../assets/Logos/Logo.svg';
 import styled from 'styled-components';
 import { NavHashLink  } from 'react-router-hash-link';

@@ -2,7 +2,6 @@ import { BrowserRouter } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import AboutUs from './components/About/About';
-import CloudnimiDescription from './components/Cloudnimi/Cloudnimi';
 import ContactUs from './components/Contact/Contact';
 import Service from './components/Services/Services';
 import TechStacks from './components/Technologies/Technologies';
