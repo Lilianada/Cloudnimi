@@ -17,7 +17,6 @@ function App() {
             <Route path="/#what-we-do" element={<Service/>} />
             <Route path="/#what-we-use" element={<TechStacks/>} />
             <Route path="/#who-we-are" element={<AboutUs/>} />
-            <Route path="/#cloudnimi" element={<CloudnimiDescription/>} />
             <Route path="/#contact" element={<ContactUs/>} />
         </Routes>
     </BrowserRouter>

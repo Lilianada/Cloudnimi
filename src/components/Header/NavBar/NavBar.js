@@ -14,14 +14,13 @@ export default function Header () {
     return(
         <header className="navigation">
             <Hamburger />
-            
+
             <div className="desktopDisplay">
                 <a href="/" className="mobileLogo"><NavLogo><img src={Logo} alt="Logo" /></NavLogo></a>
                 <ul className="navItems">
                     <li className="navList"><NavHashLink smooth to="/#what-we-do" className="navLink">What we do</NavHashLink></li>
                     <li className="navList"><NavHashLink smooth to="/#what-we-use" className="navLink">What we use</NavHashLink></li>
                     <li className="navList"><NavHashLink smooth to="/#who-we-are" className="navLink">Who we are</NavHashLink></li>
-                    <li className="navList"><NavHashLink smooth to="/#cloudnimi" className="navLink">Why choose us</NavHashLink></li>
                     <li className="navList"><NavHashLink smooth to="/#contact" className="navLink">Contact</NavHashLink></li>
                 </ul>
             </div>

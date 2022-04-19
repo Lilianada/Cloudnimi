@@ -85,7 +85,7 @@ export const Circle = styled.div`
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    animation: rotation 2s infinite linear;
+    animation: rotation 45s infinite linear;
     z-index: 0;
 /* 
     > img {
@@ -106,5 +106,10 @@ export const Circle = styled.div`
     @media screen and (min-width: 900px) {
         width: 46rem;
         height: 46rem;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 54rem;
+        height: 54rem;
     }
 `

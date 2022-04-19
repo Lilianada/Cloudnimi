@@ -33,7 +33,6 @@ export default function Hamburger (){
                     <li className="navList"><NavHashLink smooth to="/#what-we-do" className="navLink">What we do</NavHashLink></li>
                     <li className="navList"><NavHashLink smooth to="/#what-we-use" className="navLink">What we use</NavHashLink></li>
                     <li className="navList"><NavHashLink smooth to="/#who-we-are" className="navLink">Who we are</NavHashLink></li>
-                    <li className="navList"><NavHashLink smooth to="/#cloudnimi" className="navLink">Why choose us</NavHashLink></li>
                     <li className="navList"><NavHashLink smooth to="/#contact" className="navLink">Contact</NavHashLink></li>
                 </ul>
                 <div className="navFooter">

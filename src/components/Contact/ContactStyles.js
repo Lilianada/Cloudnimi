@@ -53,20 +53,6 @@ export const ContactFlex = styled.div`
     justify-content: space-between;
 `
 
-// export const ContactRow = styled.div`
-//     display: flex;
-//     flex-direction: column;
-//     margin: 1rem 1rem 1rem 0; 
-
-//     @media screen and (min-width: 400px) {
-//         display: grid;
-//         grid-template-columns: repeat(2, 1fr);
-//         grid-template-rows: repeat(1, 1fr);
-//         width: 400px;  
-//     }
-// `
-
-
 export const ContactCard = styled.div`
     padding: 1rem 0 0; 
 
@@ -95,7 +81,7 @@ export const InputName = styled.div`
     height: 3rem;
     display: flex;
     align-items: center;
-    background: #011a4294;
+    background: #04255b;
     border-radius: 6px;
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -129,7 +115,7 @@ export const TextArea = styled.textarea`
     width: 90%;
     height: 10rem;
     padding: 1rem;
-    background: #011a4294;
+    background: #04255b;
     border-radius: 6px;
     margin-bottom: 1rem;
     outline: none;
@@ -162,8 +148,8 @@ export const TextArea = styled.textarea`
 `
 
 export const Button = styled.button`
-    width: 5rem;
-    padding: .5rem;
+    width: 7rem;
+    padding: .75rem;
     background: none;
     border-radius: 6px;
     border: 1px solid white;
