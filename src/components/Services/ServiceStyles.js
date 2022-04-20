@@ -63,31 +63,3 @@ export const CardHead = styled.h4`
 
 export const CardBody = styled.p`
 `
-
-// export const Bar = styled.div`
-//     /* display: none; */
-//     width: 42%;
-//     height: 1px;
-//     background: white;
-//     transform: rotate(150deg);
-//     justify-content: space-between;
-//     align-items: center;
-
-//     @media screen and (min-width: 1000px) {
-//         display: flex;
-//     }
-// `
-
-// export const BarAlt = styled(Bar)`
-//     transform: rotate(210deg);
-// `
-
-// export const BarTip = styled.div`
-//     background: red;
-//     width: 6px;
-//     height: 1px;
-// `
-// export const BarLeft = styled.div`
-// `
-// export const BarLeft = styled.div`
-// `

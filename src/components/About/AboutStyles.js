@@ -6,7 +6,6 @@ export const Section = styled.section`
     background: #011a42;
     
     @media screen and (min-width: 901px) {
-        /* height: 100vh; */
         display: grid;
         place-items: center;
    }

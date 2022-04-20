@@ -40,7 +40,6 @@ export const FooterSocial = styled.div`
 `
 
 export const FooterLinks = styled.div`
-    /* padding: 0 0 1rem; */
     display: flex;
     flex-wrap: wrap;
     font-size: 12px;
