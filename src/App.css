@@ -174,14 +174,14 @@ img {
 .mobileMenu{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 60%;
     height: 100vh;
     position: fixed;
     top: 0;
     z-index: 3;
-    box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
-    -webkit-box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
-    -moz-box-shadow: 0px 5px 30px 0px rgb(95 93 93 / 52%);
+    box-shadow: 0px 5px 30px 0px rgb(37 37 37);
+    -webkit-box-shadow: 0px 5px 30px 0px rgb(37 37 37);
+    -moz-box-shadow: 0px 5px 30px 0px rgb(37 37 37);
     font-size: var(--font-eighteen);
     transform: translateX(0%);
     -webkit-transition: .5s;

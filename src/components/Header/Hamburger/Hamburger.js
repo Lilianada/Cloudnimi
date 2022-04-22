@@ -10,12 +10,14 @@ const NavLogo = styled.div`
 `
 
 export default function Hamburger (){
-    const [toggle, setToggle] = useState(false)
+    const [toggle, setToggle] = useState(false);
+
+    const CloseMenu = () => setToggle(false);
 
   return(
     <div className="mobileDisplay">
         <div className="navHeader">
-            <a href="#" className="mobileLogo"><NavLogo><img src={Logo} /></NavLogo></a>
+            <NavHashLink smooth to="/" className="mobileLogo"><NavLogo><img src={Logo} alt="Logo" /></NavLogo></NavHashLink>
             <div className={toggle ? "change" : "navToggle"} onClick = {()=> setToggle(!toggle)}>
                 <div className="bar bOne" >{toggle}</div>
                 <div className="bar bTwo"></div>
@@ -25,15 +27,15 @@ export default function Hamburger (){
 
         {toggle  && <div className={toggle ? "mobileMenu" : "active"}>
                 <ul className="navItems">
-                    <li className="navList">
+                    <li className="navList" onClick={CloseMenu}>
                         <NavLink to="/" className="navLink">
                             <a href="/" className="mobileLogo"><NavLogo><img src={Logo} /></NavLogo></a>    
                         </NavLink>
                     </li>
-                    <li className="navList"><NavHashLink smooth to="/#what-we-do" className="navLink">What we do</NavHashLink></li>
-                    <li className="navList"><NavHashLink smooth to="/#what-we-use" className="navLink">What we use</NavHashLink></li>
-                    <li className="navList"><NavHashLink smooth to="/#who-we-are" className="navLink">Who we are</NavHashLink></li>
-                    <li className="navList"><NavHashLink smooth to="/#contact" className="navLink">Contact</NavHashLink></li>
+                    <li className="navList" onClick={CloseMenu}><NavHashLink smooth to="/#what-we-do" className="navLink">What we do</NavHashLink></li>
+                    <li className="navList" onClick={CloseMenu}><NavHashLink smooth to="/#what-we-use" className="navLink">What we use</NavHashLink></li>
+                    <li className="navList" onClick={CloseMenu}><NavHashLink smooth to="/#who-we-are" className="navLink">Who we are</NavHashLink></li>
+                    <li className="navList" onClick={CloseMenu}><NavHashLink smooth to="/#contact" className="navLink">Contact</NavHashLink></li>
                 </ul>
                 <div className="navFooter">
                     <div className="navSocialLinks">

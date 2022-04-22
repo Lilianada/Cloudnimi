@@ -16,7 +16,7 @@ export default function Header () {
             <Hamburger />
 
             <div className="desktopDisplay">
-                <a href="/" className="mobileLogo"><NavLogo><img src={Logo} alt="Logo" /></NavLogo></a>
+                <NavHashLink smooth to="/" className="mobileLogo"><NavLogo><img src={Logo} alt="Logo" /></NavLogo></NavHashLink>
                 <ul className="navItems">
                     <li className="navList"><NavHashLink smooth to="/#what-we-do" className="navLink">What we do</NavHashLink></li>
                     <li className="navList"><NavHashLink smooth to="/#what-we-use" className="navLink">What we use</NavHashLink></li>
