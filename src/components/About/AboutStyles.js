@@ -64,14 +64,14 @@ export const ProfileRole = styled.span`
 `
 
 export const Columns = styled.div`
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     margin: 2rem auto;
     gap: 2rem;
     width: 90%;
 
     @media screen and (min-width: 900px) {
-        display: grid;
+        display: none;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }

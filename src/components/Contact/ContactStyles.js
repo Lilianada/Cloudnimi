@@ -9,8 +9,12 @@ export const Section = styled.section`
 
 export const Form = styled.form `
     display: grid;
-    width: 55%;
+    width: 100%;
     margin-bottom: 1rem;
+
+    @media screen and (min-width: 700px) {
+        width: 65%;
+   }
 `
 
 export const ContactTop = styled.div`
@@ -65,6 +69,7 @@ export const ContactCol = styled.address`
     padding: 1rem 0;
     width: 100%;
     margin: 1rem 0 0;
+    font-style: normal;
 
     h2{margin-bottom: 1rem;}
 `
@@ -90,6 +95,10 @@ export const InputName = styled.div`
         top: -2px;
         transition: .5s ease-in;
     }
+
+    @media screen and (min-width: 700px) {
+        width: 46%;
+   }
 
     @media screen and (min-width: 1100px) {
         width: 47%;

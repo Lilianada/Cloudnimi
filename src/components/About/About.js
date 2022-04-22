@@ -26,9 +26,9 @@ export default function AboutUs () {
             <Fade bottom>
                 <h3>Who We Are <HiArrowNarrowDown/></h3>
                 <SubHead>
-                    We are a professional team of Software and Cloud-Native Architects, 
-                    Site Reliability Engineers and Software Security Experts from across Africa.
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                    We are Professional expert of Site Reliability Engineer, 
+                    Cloud-Native, and Software Security. Dedicated in ensuring a 
+                    smooth ride for your company cloud journey.
                 </SubHead>
                 <TeamProfile>
                     <ProfileCards>

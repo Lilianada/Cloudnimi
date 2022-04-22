@@ -6,7 +6,7 @@ export const Section = styled.section`
     background-color: var(--black-color);
     
     @media screen and (min-width: 901px) {
-        height: 100vh;
+        /* height: 100vh; */
         display: grid;
         place-items: center;
    }
@@ -78,7 +78,7 @@ export const Image = styled.img`
 
 export const TechDescription = styled.div`
     width: 90%;
-    display: grid;
+    display: none;
     padding: 0 1rem;
     margin: 1rem 0;
 

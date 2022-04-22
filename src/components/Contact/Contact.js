@@ -61,8 +61,8 @@ export default function ContactUs () {
                             </ContactCard>
                         </ContactRow> */}
                         <ContactCol>
-                            <h2>745 Block 4, 5th Floor, Munich, Germany </h2>
-                            <p>(002) 164-2459</p>
+                            <h2>Lagos, Nigeria </h2>
+                            <p>(+234) 081-000-0000</p>
                         </ContactCol>
                     </ContactFlex>
                 </ContactBody>
