@@ -1,9 +1,10 @@
-import { useState } from 'react'
 import React from 'react';
+import styled from 'styled-components';
+import { useState } from 'react'
 import {BsLinkedin, BsInstagram, BsTwitter} from 'react-icons/bs'
 import { NavLink } from 'react-router-dom';import Logo from '../../../assets/Logos/Logo.svg';
-import styled from 'styled-components';
 import { NavHashLink  } from 'react-router-hash-link';
+// import { motion } from 'framer-motion';
 
 const NavLogo = styled.div`
     width: 65px;
@@ -12,7 +13,11 @@ const NavLogo = styled.div`
 export default function Hamburger (){
     const [toggle, setToggle] = useState(false);
 
+    // close the mobilemenu when a mobile link is clicked
     const CloseMenu = () => setToggle(false);
+
+    const animateFrom = {opacity: 0, y: -40};
+    const animateTo = {opacity: 1, y: -0};
 
   return(
     <div className="mobileDisplay">
@@ -26,7 +31,12 @@ export default function Hamburger (){
         </div>
 
         {toggle  && <div className={toggle ? "mobileMenu" : "active"}>
-                <ul className="navItems">
+                <ul 
+                    className="navItems"
+                    // initial={animateFrom}
+                    // animate={animateTo}
+                    // transition={{delay: 0.10}}
+                >
                     <li className="navList" onClick={CloseMenu}>
                         <NavLink to="/" className="navLink">
                             <a href="/" className="mobileLogo"><NavLogo><img src={Logo} /></NavLogo></a>    
