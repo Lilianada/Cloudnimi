@@ -10,7 +10,7 @@ export const FooterBottom = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1rem;
+    padding: 2rem 2rem 0 2rem;
     border-top: 1px solid #40516b;
 `
 

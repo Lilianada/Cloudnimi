@@ -9,7 +9,7 @@ export const Section = styled.section`
 
 export const Form = styled.form `
     display: grid;
-    width: 85%;
+    width: 55%;
     margin-bottom: 1rem;
 `
 
@@ -61,7 +61,7 @@ export const ContactCard = styled.div`
     }
 `
 
-export const ContactCol = styled.div`
+export const ContactCol = styled.address`
     padding: 1rem 0;
     width: 100%;
     margin: 1rem 0 0;
@@ -77,7 +77,7 @@ export const InputForms = styled.div`
 
 export const InputName = styled.div`
     position: relative;
-    width: 13.5rem;
+    width: 45%;
     height: 3rem;
     display: flex;
     align-items: center;
@@ -90,6 +90,10 @@ export const InputName = styled.div`
         top: -2px;
         transition: .5s ease-in;
     }
+
+    @media screen and (min-width: 1100px) {
+        width: 47%;
+   }
 `
 
 export const Input = styled.input`
@@ -112,7 +116,7 @@ export const Input = styled.input`
 `
 
 export const TextArea = styled.textarea`
-    width: 90%;
+    width: 96%;
     height: 10rem;
     padding: 1rem;
     background: #04255b;
@@ -138,13 +142,13 @@ export const TextArea = styled.textarea`
         box-shadow: 1px 0px 8px -2px rgb(165 159 159 / 28%);
     }
 
-    @media screen and (min-width: 701px) {
+    /* @media screen and (min-width: 701px) {
         width: 27.5rem;
    }
 
     @media screen and (min-width: 901px) {
-        width: 28rem;
-   }
+        width: 96%;
+   } */
 `
 
 export const Button = styled.button`
