@@ -150,14 +150,10 @@ export const TextArea = styled.textarea`
     :focus{
         box-shadow: 1px 0px 8px -2px rgb(165 159 159 / 28%);
     }
+`
 
-    /* @media screen and (min-width: 701px) {
-        width: 27.5rem;
-   }
-
-    @media screen and (min-width: 901px) {
-        width: 96%;
-   } */
+export const Message = styled.div`
+    
 `
 
 export const Button = styled.button`

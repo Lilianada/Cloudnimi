@@ -65,6 +65,10 @@ export const Image = styled.img`
     position: absolute;
     top: 22%;
     left: -43%;
+
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
 `
 
 export const SVG = styled.svg`
