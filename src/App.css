@@ -151,6 +151,7 @@ img {
 .bodyWrapper{
   display: grid;
   grid-template-columns: 100%;
+  overflow: hidden;
   /* gap: 2rem; */
   /* max-width: 2560px; */
 }
