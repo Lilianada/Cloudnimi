@@ -40,6 +40,18 @@ export const BigHeroText = styled.div`
         @media screen and (min-width: 650px) {
             font-size: 15rem;
         }
+
+        @media screen and (min-width: 1020px) {
+            font-size: 20rem;
+        }
+
+        @media screen and (min-width: 1290px) {
+            font-size: 33rem;
+        }
+
+        @media screen and (min-width: 2000px) {
+            font-size: 42rem;
+        }
     }
 `
 
@@ -57,6 +69,7 @@ export const SmallHeroText = styled.div`
 
         @media screen and (min-width: 900px) {
             width: 90%;
+            font-size: 20px;
         }
     }
 `
@@ -67,7 +80,7 @@ export const Image = styled.img`
     left: -43%;
 
     @media screen and (min-width: 1200px) {
-        display: none;
+        
     }
 `
 

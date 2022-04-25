@@ -303,7 +303,7 @@ img {
   }
 
   .navLink{
-      font-size: var(--font-twelve);
+      font-size: var(--font-fourteen);
   }
 
   .desktopDisplay .navLink:hover, .desktopDisplay .navLink:active{
@@ -318,6 +318,11 @@ img {
 
 }
 
+@media screen and (min-width: 1040px){
+    .navLink{
+        font-size: var(--font-eighteen);
+    }
+}
 
 @media screen and (min-width: 1023px) {
     h1{
