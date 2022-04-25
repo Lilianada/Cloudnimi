@@ -29,7 +29,6 @@ const Result = () => {
 
 const ResultTxt = styled.p`
     background: #04255b;
-    border: 1px solid #04255b;
     padding: 1rem;
     margin: 1rem 0;
 `
