@@ -39,7 +39,7 @@ export default function ContactUs () {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_ckkk5c8', 'template_0jcle8v', Form.current, 'rVTUU3hX4Ffj0CDUd')
+        emailjs.sendForm('service_ihd2dxc', 'template_0jcle8v', Form.current, 'rVTUU3hX4Ffj0CDUd')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
