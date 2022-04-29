@@ -18,7 +18,7 @@ export const Copyright = styled.div`
     padding-top: 1rem; 
 
     > p{
-        color: #8f8e8e;
+        color: #dddddd;
         font-size: 12px;
     }
 `

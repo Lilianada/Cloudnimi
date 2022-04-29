@@ -128,7 +128,7 @@ export const TextArea = styled.textarea`
     width: 96%;
     height: 10rem;
     padding: 1rem;
-    background: #04255b;
+    background: rgb(4, 37, 91);
     border-radius: 6px;
     margin-bottom: 1rem;
     outline: none;
