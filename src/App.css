@@ -320,7 +320,7 @@ img {
 
 @media screen and (min-width: 1040px){
     .navLink{
-        font-size: var(--font-eighteen);
+        font-size: var(--font-fourteen);
     }
 }
 
