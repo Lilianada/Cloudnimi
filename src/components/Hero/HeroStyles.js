@@ -4,7 +4,7 @@ export const Hero = styled.section`
     position: relative;
     padding: 2rem;
     background: var(--black-color);
-    height: 100%;
+    height: 100vh;
     display: grid;
     place-items: center;
     overflow: hidden;
