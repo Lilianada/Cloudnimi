@@ -303,7 +303,7 @@ img {
   }
 
   .navLink{
-      font-size: var(--font-fourteen);
+      font-size: var(--font-twelve);
   }
 
   .desktopDisplay .navLink:hover, .desktopDisplay .navLink:active{
