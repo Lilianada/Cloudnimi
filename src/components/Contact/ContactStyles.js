@@ -128,7 +128,7 @@ export const TextArea = styled.textarea`
     width: 96%;
     height: 10rem;
     padding: 1rem;
-    background: #dddddd;
+    background: #04255b;
     border-radius: 6px;
     margin-bottom: 1rem;
     outline: none;
@@ -140,7 +140,7 @@ export const TextArea = styled.textarea`
     
     ::placeholder {
         font-size: 1rem;
-        color: #4d536e;
+        color: #dddddd;
     }
 
     :hover{
