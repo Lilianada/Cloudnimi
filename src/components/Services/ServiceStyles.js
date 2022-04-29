@@ -59,6 +59,7 @@ export const ServiceText = styled.div`
 export const CardHead = styled.h4`
     color: var(--blue-color);
     font-size: 16px;
+    line-height: 2.5rem;
 `
 
 export const CardBody = styled.p`

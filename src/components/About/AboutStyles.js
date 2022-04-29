@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
     width: 100%;
-    padding: 2rem 2rem 4rem 2rem;
+    padding: 4rem 2rem;
     background: #011a42;
     
     @media screen and (min-width: 901px) {
@@ -17,9 +17,11 @@ export const Section = styled.section`
 `
 
 export const SubHead = styled.p`
+    font-weight: 300;
     text-align: center;
-    width:  90%;
+    width: 90%;
     margin: 2rem auto;
+    color: #dddddd;
 `
 
 export const TeamProfile = styled.div`
@@ -31,7 +33,7 @@ export const TeamProfile = styled.div`
 
 export const ProfileCards = styled.div`
     width: 280px;
-    border: 1px solid var(--grey-color);
+    border: .5px solid #757575;
     border-radius: 10px;
     margin: 1rem;
     background-position: center;

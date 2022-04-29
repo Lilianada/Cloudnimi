@@ -2,7 +2,7 @@ import styled from "styled-components" ;
 
 export const Section = styled.section`
     width: 100%;
-    padding: 2rem 0;
+    padding: 4rem 0;
     background-color: var(--black-color);
     
     @media screen and (min-width: 901px) {
@@ -21,6 +21,8 @@ export const Description =styled.p`
     width: 90%;
     text-align: center;
     margin: 2rem auto;
+    font-weight: 300;
+    color: #dddddd;
 `
 
 export const SectionWrap = styled.div`
@@ -62,9 +64,9 @@ export const ImageWrap = styled.div`
     text-align: center;
     padding: .3rem;
     border-radius: 10px;
-    box-shadow: 3px 2px 22px 0px rgb(165 159 159 / 52%);
-    -webkit-box-shadow: 3px 2px 22px 0px rgb(165 159 159 / 52%);
-    -moz-box-shadow: 3px 2px 22px 0px rgb(165 159 159 / 52%);
+    box-shadow: rgb(28 27 27) 0px 1px 6px 4px;
+    -webkit-box-shadow: rgb(28 27 27) 0px 1px 6px 4px;
+    -moz-box-shadow: rgb(28 27 27) 0px 1px 6px 4px;
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 
     &:hover{

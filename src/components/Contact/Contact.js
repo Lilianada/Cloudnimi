@@ -70,7 +70,7 @@ export default function ContactUs () {
                     <Form onSubmit={sendEmail} action="" ref={Form}>
                         <InputForms>
                             <InputName>
-                                <MdPerson style={{margin: ".5rem 0 .5rem .75rem"}} size={18} />
+                                <MdPerson style={{margin: ".5rem 0 .5rem .75rem", fill:"#dddddd"}} size={18} />
                                 <Input type="name" name="name" placeholder="Name" required />
                             </InputName>
                             <InputName>

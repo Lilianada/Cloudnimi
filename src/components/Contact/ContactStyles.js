@@ -120,7 +120,7 @@ export const Input = styled.input`
 
     ::placeholder {
         font-size: 1em;
-        color: #4d536e;
+        color: #dddddd;
     }
 `
 
@@ -128,7 +128,7 @@ export const TextArea = styled.textarea`
     width: 96%;
     height: 10rem;
     padding: 1rem;
-    background: #04255b;
+    background: #dddddd;
     border-radius: 6px;
     margin-bottom: 1rem;
     outline: none;
@@ -161,7 +161,7 @@ export const Button = styled.button`
     padding: .75rem;
     background: none;
     border-radius: 6px;
-    border: 1px solid white;
+    border: 1px solid #dddddd;
     text-align: center;
     box-shadow: 1px 0px 8px -2px rgb(165 159 159 / 28%);
     transition: all .4s ease-in;
