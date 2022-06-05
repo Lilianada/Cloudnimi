@@ -58,11 +58,11 @@ export const TechStack = styled.div`
    }
 `
 export const ImageWrap = styled.div`
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 5.85rem;
+    height: 5.85rem;
     background-color: var(--white-color);
     text-align: center;
-    padding: .3rem;
+    padding: .35rem;
     border-radius: 10px;
     box-shadow: rgb(28 27 27) 0px 1px 6px 4px;
     -webkit-box-shadow: rgb(28 27 27) 0px 1px 6px 4px;
@@ -76,6 +76,7 @@ export const ImageWrap = styled.div`
 `
 
 export const Image = styled.img`
+    width: 50px;
 `
 
 export const TechDescription = styled.div`

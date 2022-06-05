@@ -89,7 +89,7 @@ export default function ContactUs () {
                     <ContactFlex>
                         <ContactCol>
                             <h2>Lagos, Nigeria </h2>
-                            <p>(+234) 810-000-0000</p>
+                            <p>(+234) 813-779-6995</p>
                         </ContactCol>
                     </ContactFlex>
                 </ContactBody>

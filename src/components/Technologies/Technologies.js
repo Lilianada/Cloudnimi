@@ -17,6 +17,7 @@ import GoogleCloud from "../../assets/google-cloud-platform.svg";
 import Kubernetes from "../../assets/kubernetes-logo-vector-transparent.svg";
 import Azure from "../../assets/microsoft-azure.svg";
 import Terraform from "../../assets/Terraform-logo.svg";
+import Prometheus from "../../assets/prometheus-icon-black.png";
 import {HiArrowNarrowDown} from "react-icons/hi";
 import Fade from 'react-reveal/Fade';
 
@@ -64,8 +65,8 @@ export default function TechStacks () {
                             <h6>GCP</h6>
                         </ImageWrap>
                         <ImageWrap>
-                            <Image src={GoogleCloud} alt="Company Logo" />
-                            <h6>GCP</h6>
+                            <Image src={Prometheus} alt="Company Logo" />
+                            <h6>Prometheus</h6>
                         </ImageWrap>
                     </TechStack>
 
